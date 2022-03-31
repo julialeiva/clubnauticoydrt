@@ -1,0 +1,1923 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap)
+}
+
+@font-face {
+    font-family: 'Margin';
+    src: url(../fuentes/OPTIMistral-Graff.otf);
+}
+
+.body_index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_index header_index header_index"
+    "main_index main_index main_index"
+    "footer_index none none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    background-color: black;
+    margin: 2%;
+}
+    
+.header_index{
+    grid-area: header_index;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_index{
+    grid-area: main_index;
+    background-color: black;
+}
+
+.grid_index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "imagenes_index"
+    "textos_index";
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.imagenes_index{
+    grid-area: imagenes_index;
+    
+}
+
+.textos_index{
+    grid-area: textos_index;
+}
+
+.footer_index{
+    grid-area: footer_index;
+    background-color: black;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin: 30px;
+}
+
+.body_hockey{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_hockey header_hockey header_hockey"
+    "main_hockey main_hockey main_hockey"
+    "footer_hockey none none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_hockey{
+    grid-area: header_hockey;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_hockey{
+    grid-area: main_hockey;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.grid_hockey{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "imageneshockey"
+    "tablahockey";
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.imageneshockey{
+    grid-area: imageneshockey;
+    width: 90%;
+    height: 90%;
+
+}
+
+.imageneshockey_1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+    border: white 5px solid;
+
+}
+
+.tablahockey{
+    grid-area: tablahockey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_hockey{
+    grid-area: footer_hockey;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:30px;
+}
+
+.body_basquet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_basquet header_basquet header_basquet"
+    "main_basquet main_basquet main_basquet"
+    "footer_basquet none none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_basquet{
+    grid-area: header_basquet;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_basquet{
+    grid-area: main_basquet;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_basquet{
+    grid-area: footer_basquet;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+}
+
+
+.gridbasquet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "imagenmbasquet imagenfbasquet"
+    "tablambasquet tablambasquet"
+    "tablafbasquet tablafbasquet";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.imagenmbasquet{
+    grid-area: imagenmbasquet;
+    width: 90%;
+    height: 90%;
+    border: white 5px solid;
+}
+
+.imagenfbasquet{
+    grid-area: imagenfbasquet;
+    width: 90%;
+    height: 90%;
+    border: white 5px solid;
+}
+
+.tablambasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablambasquet;
+}
+
+.tablafbasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablafbasquet;
+}
+
+.body_nauticas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0,5fr 8fr 0.3fr;
+    grid-template-areas: 
+    "header_nauticas header_nauticas header_nauticas"
+    "main_nauticas main_nauticas main_nauticas"
+    "footer_nauticas none none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_nauticas{
+    grid-area: header_nauticas;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_nauticas{
+    grid-area: main_nauticas;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_nauticas{
+    grid-area: footer_nauticas;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+}
+
+.imagenesnautica{
+    display: grid;
+    grid-template-columns: 0.75fr 0.75fr 0.75fr;
+    grid-template-rows: 0.75fr 0.75fr 0.75fr;
+    grid-template-areas: 
+    "imagennautica1 imagennautica4 imagennautica7"
+    "imagennautica2 imagennautica5 imagennautica8"
+    "imagennautica3 imagennautica6 imagennautica9";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: white; 
+}
+
+.imagennautica1{
+    grid-area: imagennautica1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+.imagennautica2{
+    grid-area: imagennautica2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica3{
+    grid-area: imagennautica3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica4{
+    grid-area: imagennautica4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica5{
+    grid-area: imagennautica5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica6{
+    grid-area: imagennautica6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica7{
+    grid-area: imagennautica7;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica8{
+    grid-area: imagennautica8;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagennautica9{
+    grid-area: imagennautica9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.body_contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_contacto header_contacto header_contacto"
+    "main_contacto main_contacto main_contacto"
+    "footer_contacto footer_contacto footer_contacto";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_contacto{
+    grid-area: header_contacto;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_contacto{
+    grid-area: main_contacto;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_contacto{
+    grid-area: footer_contacto;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contacto_1 contacto_2 contacto_3";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    padding-top: 5px;
+    background-color: #fae105;
+}
+
+.contacto_1{
+    grid-area: contacto_1;
+    background-color: #fae105;
+    border: white 5px solid;
+}
+
+.contacto_2{
+    grid-area: contacto_2;
+    background-color: #fae105;
+    border: white 5px solid;
+}
+
+.contacto_3{
+    grid-area: contacto_3;
+    background-color: #fae105;
+    border: white 5px solid;
+}
+
+
+.pages_body{
+    background-color: #fae105;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages_header{
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#escudo{
+    height: 120px;
+    width: 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.pages_main{
+    background-color: #fae105;
+}
+
+h1{
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 90px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.pages_h1{
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 90px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+h2{
+    text-align: left;
+    font-family: 'Poppins';
+    color:#fae105;
+    padding: 40px;
+    
+}
+
+h3{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    padding:10px;
+}
+
+
+.pages_h3{
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    padding:30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0,5s;
+   
+}
+
+a:hover{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.pages_a{
+    text-decoration: none;
+    color: #fae105;
+    font-size: 20px; 
+    font-weight: 300;
+    transition: all 0,5s;
+}
+
+.pages_a:hover{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.menu{
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.pages_menu{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+li{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Poppins';
+    font-style: italic;
+    text-align: justify;
+    
+}
+
+.imagenes{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: white 5px solid;  
+}
+
+.imagenesbasquet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: black;
+}
+ 
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 500px;
+    padding: 15px;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: large;
+    padding: 15px;
+    text-align: left;
+    list-style: none;
+}
+
+select{
+    width: 380px;
+    height: 30px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: large;
+}
+
+input{
+    width: 380px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: large;
+    align-items: center;
+}
+
+textarea{
+    width: 380px;
+    height: 280px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: large;  
+}
+
+.tablahockey_1{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+.tablasbasquet{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+tr{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 300;
+}
+
+#actnauticas{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none;
+}
+
+.actnauticas_li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: large;
+    padding: 15px;
+    text-align: left;
+    list-style: none;
+}
+
+.info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    width: 90%;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+.pages_footer{
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+}
+
+.a_f{
+    text-decoration: none;
+    color: #fae105;
+    font-size: 20px;
+}
+
+.pages_a_f{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:756px){
+
+.body_index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_index header_index header_index"
+    "main_index main_index main_index"
+    "footer_index footer_index none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    background-color: black;
+    margin: 2%;
+}
+        
+.header_index{
+    grid-area: header_index;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    
+.main_index{
+    grid-area: main_index;
+    background-color: black;
+}
+    
+.grid_index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "imagenes_index"
+    "textos_index";
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+}
+    
+.imagenes_index{
+    grid-area: imagenes_index;
+}
+    
+.textos_index{
+    grid-area: textos_index;
+}
+    
+.footer_index{
+    grid-area: footer_index;
+    background-color: black;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.body_contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header_contacto"
+    "main_contacto"
+    "footer_contacto";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_contacto{
+    grid-area: header_contacto;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_contacto{
+    grid-area: main_contacto;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_contacto{
+    grid-area: footer_contacto;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "contacto_1"
+    "contacto_2" 
+    "contacto_3";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    padding-top: 5px;
+    background-color: #fae105;
+}
+
+.contacto_1{
+    grid-area: contacto_1;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%;
+}
+
+.contacto_2{
+    grid-area: contacto_2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%;
+}
+
+.contacto_3{
+    grid-area: contacto_3;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%;
+}
+
+.body_basquet{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header_basquet"
+    "main_basquet"
+    "footer_basquet";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_basquet{
+    grid-area: header_basquet;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_basquet{
+    grid-area: main_basquet;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_basquet{
+    grid-area: footer_basquet;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+    justify-items: left;
+}
+
+.gridbasquet{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "imagenmbasquet"
+    "tablambasquet"
+    "imagenfbasquet"
+    "tablafbasquet";
+    grid-column-gap: 5px;
+    grid-row-gap:15px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.imagenmbasquet{
+    grid-area: imagenmbasquet;
+    width: 90%;
+    height: 90%;
+    border: white 5px solid;
+}
+
+.imagenfbasquet{
+    grid-area: imagenfbasquet;
+    width: 90%;
+    height: 90%;
+    border: white 5px solid;
+}
+
+.tablambasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablambasquet;
+}
+
+.tablafbasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablafbasquet;
+}
+
+.body_nauticas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_nauticas header_nauticas header_nauticas"
+    "main_nauticas main_nauticas main_nauticas"
+    "footer_nauticas footer_nauticas none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 5px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_nauticas{
+    grid-area: header_nauticas;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_nauticas{
+    grid-area: main_nauticas;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_nauticas{
+    grid-area: footer_nauticas;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+.body_hockey{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_hockey header_hockey header_hockey"
+    "main_hockey main_hockey main_hockey"
+    "footer_hockey footer_hockey none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 5px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_hockey{
+    grid-area: header_hockey;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_hockey{
+    grid-area: main_hockey;
+    background-color: #fae105;
+}
+
+.grid_hockey{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "imageneshockey"
+    "tablahockey";
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+.imageneshockey{
+    grid-area: imageneshockey;
+    width: 90%;
+    height: 90%;
+    border: none;
+}
+
+.imageneshockey_1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+    border: white 5px solid;
+}
+
+.tablahockey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablahockey;
+    width: 100%;
+}
+
+.footer_hockey{
+    grid-area: footer_hockey;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+
+#escudo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 65px;
+    height: 65px;
+    object-fit:cover;
+}
+
+h1{
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+    
+.pages_h1{
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+    
+.pages_menu{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+li{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 300;
+    padding: 5px;
+    text-align: left;
+    list-style: none;
+}
+
+h2{
+    text-align: left;
+    font-family: 'Poppins';
+    color:#fae105;
+    padding: 5px;
+    font-size: 80%;
+}
+    
+h3{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    padding:5px;
+    font-size: 100%;
+}
+
+.pages_h3{
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    padding: 5px;
+    font-size: small;
+}
+
+p{
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Poppins';
+    font-style: italic;
+    text-align: center;
+}
+
+.imagenes{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: white 5px solid;  
+}
+
+.imagenesbasquet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: black;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+    
+.pages_a{
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px; 
+}
+    
+.indice_pages{
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+}
+
+.tablahockey_1{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+.tablasbasquet{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+.imagenes{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+    padding: 15px;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 70%;
+    font-size: small;
+    padding: 5px;
+    text-align: left;
+    list-style: none;
+}
+
+select{
+    width: 70%;
+    height: 20px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+}
+
+input{
+    width: 70%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    align-items: center;
+}
+
+textarea{
+    width: 70%;
+    height: 50px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;  
+}
+
+.info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    width: 90%;
+}
+
+tr{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    font-size: 8px;
+}
+
+.a_f{
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px;
+}
+
+.pages_a_f{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}    
+
+}
+
+@media screen and (max-width:425px){
+
+.body_index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_index header_index header_index"
+    "main_index main_index main_index"
+    "footer_index footer_index none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    background-color: black;
+    margin: 2%;
+}
+        
+.header_index{
+    grid-area: header_index;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    
+.main_index{
+    grid-area: main_index;
+    background-color: black;
+}
+    
+.grid_index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas: 
+    "imagenes_index"
+    "textos_index";
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+}
+    
+.imagenes_index{
+    grid-area: imagenes_index;
+}
+    
+.textos_index{
+    grid-area: textos_index;
+}
+    
+.footer_index{
+    grid-area: footer_index;
+    background-color: black;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.body_contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header_contacto"
+    "main_contacto"
+    "footer_contacto";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_contacto{
+    grid-area: header_contacto;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_contacto{
+    grid-area: main_contacto;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_contacto{
+    grid-area: footer_contacto;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "contacto_1"
+    "contacto_2" 
+    "contacto_3";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    padding-top: 5px;
+    background-color: #fae105;
+}
+
+.contacto_1{
+    grid-area: contacto_1;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%;
+}
+
+.contacto_2{
+    grid-area: contacto_2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%;
+}
+
+.contacto_3{
+    grid-area: contacto_3;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%;
+}
+
+.body_basquet{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header_basquet"
+    "main_basquet"
+    "footer_basquet";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_basquet{
+    grid-area: header_basquet;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_basquet{
+    grid-area: main_basquet;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_basquet{
+    grid-area: footer_basquet;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+    justify-items: left;
+}
+
+.gridbasquet{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "imagenmbasquet"
+    "tablambasquet"
+    "imagenfbasquet"
+    "tablafbasquet";
+    grid-column-gap: 5px;
+    grid-row-gap:15px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.imagenmbasquet{
+    grid-area: imagenmbasquet;
+    width: 90%;
+    height: 90%;
+    border: white 5px solid;
+}
+
+.imagenfbasquet{
+    grid-area: imagenfbasquet;
+    width: 90%;
+    height: 90%;
+    border: white 5px solid;
+}
+
+.tablambasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablambasquet;
+}
+
+.tablafbasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablafbasquet;
+}
+
+.body_nauticas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_nauticas header_nauticas header_nauticas"
+    "main_nauticas main_nauticas main_nauticas"
+    "footer_nauticas footer_nauticas none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 5px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_nauticas{
+    grid-area: header_nauticas;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_nauticas{
+    grid-area: main_nauticas;
+    background-color: #fae105;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_nauticas{
+    grid-area: footer_nauticas;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+.body_hockey{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header_hockey header_hockey header_hockey"
+    "main_hockey main_hockey main_hockey"
+    "footer_hockey footer_hockey none";
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    margin: 5px;
+    justify-items: center;
+    margin: 2%;
+    background-color: #fae105;
+}
+
+.header_hockey{
+    grid-area: header_hockey;
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_hockey{
+    grid-area: main_hockey;
+    background-color: #fae105;
+}
+
+.grid_hockey{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "imageneshockey"
+    "tablahockey";
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+.imageneshockey{
+    grid-area: imageneshockey;
+    width: 90%;
+    height: 90%;
+    border: none;
+}
+
+.imageneshockey_1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+    border: white 5px solid;
+}
+
+.tablahockey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablahockey;
+    width: 100%;
+}
+
+.footer_hockey{
+    grid-area: footer_hockey;
+    background-color: #fae105;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:10px;
+}
+
+
+#escudo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit:cover;
+}
+
+h1{
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+    
+.pages_h1{
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+    
+.pages_menu{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+li{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 300;
+    padding: 5px;
+    text-align: left;
+    list-style: none;
+}
+
+h2{
+    text-align: left;
+    font-family: 'Poppins';
+    color:#fae105;
+    padding: 5px;
+    font-size: 80%;
+}
+    
+h3{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    padding:5px;
+    font-size: 100%;
+}
+
+.pages_h3{
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    padding: 5px;
+    font-size: small;
+}
+
+p{
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Poppins';
+    font-style: italic;
+    text-align: center;
+}
+
+.imagenes{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.imagenesbasquet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: black;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+    
+.pages_a{
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px; 
+}
+    
+.indice_pages{
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+}
+
+.tablahockey_1{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+.tablasbasquet{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+.imagenes{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: white 5px solid;  
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+    padding: 15px;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 70%;
+    font-size: small;
+    padding: 5px;
+    text-align: left;
+    list-style: none;
+}
+
+select{
+    width: 70%;
+    height: 20px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+}
+
+input{
+    width: 70%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    align-items: center;
+}
+
+textarea{
+    width: 70%;
+    height: 50px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;  
+}
+
+.info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    width: 90%;
+}
+
+tr{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    font-size: 8px;
+}
+
+.a_f{
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px;
+}
+
+.pages_a_f{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+}
