@@ -28,23 +28,23 @@ html{
     grid-row-gap:5px;
     margin: 15px;
     justify-items: center;
-    background-color: black;
+    background-image: linear-gradient(135deg, rgb(16, 17, 17) 23%, rgba(253,247,45,1) 100%);
     margin: 2%;
 }
     
 .header_index{
     grid-area: header_index;
-    background-color: black;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
+    background: transparent;
 }
 
 .main_index{
     grid-area: main_index;
-    background-color: black;
+    background: transparent;
 }
 
 .grid_index{
@@ -70,11 +70,11 @@ html{
 
 .footer_index{
     grid-area: footer_index;
-    background-color: black;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
     margin: 30px;
+    background: transparent;
 }
 
 .body_hockey{
@@ -89,22 +89,21 @@ html{
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
+    background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
 }
 
 .header_hockey{
     grid-area: header_hockey;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
+    background: transparent;
 }
 
 .main_hockey{
     grid-area: main_hockey;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
@@ -147,11 +146,11 @@ html{
 
 .footer_hockey{
     grid-area: footer_hockey;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
     margin:30px;
+    background: transparent;
 }
 
 .body_basquet{
@@ -166,33 +165,32 @@ html{
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
+    background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
 }
 
 .header_basquet{
     grid-area: header_basquet;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
+    background: transparent;
 }
 
 .main_basquet{
     grid-area: main_basquet;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_basquet{
     grid-area: footer_basquet;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
     margin:50px;
+    background: transparent;
 }
 
 
@@ -250,33 +248,32 @@ html{
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
+    background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
 }
 
 .header_nauticas{
     grid-area: header_nauticas;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
+    background: transparent;
 }
 
 .main_nauticas{
     grid-area: main_nauticas;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_nauticas{
     grid-area: footer_nauticas;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
     margin:50px;
+    background: transparent;
 }
 
 .imagenesnautica{
@@ -370,33 +367,32 @@ html{
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
+    background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
 }
 
 .header_contacto{
     grid-area: header_contacto;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
+    background: transparent;
 }
 
 .main_contacto{
     grid-area: main_contacto;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_contacto{
     grid-area: footer_contacto;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
     margin:50px;
+    background: transparent;
 }
 
 .contacto{
@@ -410,7 +406,6 @@ html{
     margin: 15px;
     justify-items: center;
     padding-top: 5px;
-    background-color: #fae105;
 }
 
 .contacto_1{
@@ -431,22 +426,8 @@ html{
     border: white 5px solid;
 }
 
-
-.pages_body{
-    background-color: #fae105;
-}
-
 header{
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.pages_header{
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -461,10 +442,6 @@ header{
     padding-bottom: 30px;
 }
 
-.pages_main{
-    background-color: #fae105;
-}
-
 h1{
     text-align: center;
     color: #fae105;
@@ -473,7 +450,7 @@ h1{
     font-size: 90px;
     padding-top: 50px;
     padding-bottom: 30px;
-}
+ }
 
 .pages_h1{
     text-align: center;
@@ -500,7 +477,6 @@ h3{
     color: white;
     padding:10px;
 }
-
 
 .pages_h3{
     text-align: center;
@@ -716,14 +692,6 @@ footer{
     font-style:normal;
     font-weight: 200;
     margin:10px;
-}
-
-.pages_footer{
-    background-color: #fae105;
-    font-family: 'Poppins';
-    font-style:normal;
-    font-weight: 200;
-    margin:50px;
 }
 
 .a_f{
