@@ -40,7 +40,7 @@ html{
 
 .imagenes_index{
     object-fit: cover;
-    height:400px;
+    height:450px;
     width: 70%;
 }
 
@@ -61,6 +61,7 @@ html{
 }
 
 .header_contacto{
+    grid-area: header_contacto;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -105,14 +106,6 @@ html{
 }
 
 .body_hockey{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header_hockey header_hockey header_hockey"
-    "main_hockey main_hockey main_hockey"
-    "footer_hockey none none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 15px;
     justify-items: center;
     margin: 2%;
@@ -120,7 +113,6 @@ html{
 }
 
 .header_hockey{
-    grid-area: header_hockey;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -130,39 +122,21 @@ html{
 }
 
 .main_hockey{
-    grid-area: main_hockey;
     width: 100%;
     height: 100%;
 }
 
 .grid_hockey{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "imageneshockey"
-    "tablahockey";
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
     margin-top: 40px;
     justify-items: center;
 }
 
 .imageneshockey{
-    grid-area: imageneshockey;
-    width: 90%;
-    height: 90%;
-
+    object-fit: cover;
+    height:450px;
+    width: 70%;
 }
 
-.imageneshockey_1{
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;   
-    border: white 5px solid;
-
-}
 
 .tablahockey{
     grid-area: tablahockey;
@@ -181,14 +155,6 @@ html{
 }
 
 .body_basquet{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header_basquet header_basquet header_basquet"
-    "main_basquet main_basquet main_basquet"
-    "footer_basquet none none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 15px;
     justify-items: center;
     margin: 2%;
@@ -196,7 +162,6 @@ html{
 }
 
 .header_basquet{
-    grid-area: header_basquet;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -206,13 +171,11 @@ html{
 }
 
 .main_basquet{
-    grid-area: main_basquet;
     width: 100%;
     height: 100%;
 }
 
 .footer_basquet{
-    grid-area: footer_basquet;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -220,58 +183,24 @@ html{
     background: transparent;
 }
 
-
 .gridbasquet{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "imagenmbasquet imagenfbasquet"
-    "tablambasquet tablambasquet"
-    "tablafbasquet tablafbasquet";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin-top: 40px;
     justify-items: center;
-}
-
-.imagenmbasquet{
-    grid-area: imagenmbasquet;
-    width: 90%;
-    height: 90%;
-    border: white 5px solid;
-}
-
-.imagenfbasquet{
-    grid-area: imagenfbasquet;
-    width: 90%;
-    height: 90%;
-    border: white 5px solid;
 }
 
 .tablambasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablambasquet;
 }
 
 .tablafbasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablafbasquet;
 }
 
 .body_nauticas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0,5fr 8fr 0.3fr;
-    grid-template-areas: 
-    "header_nauticas header_nauticas header_nauticas"
-    "main_nauticas main_nauticas main_nauticas"
-    "footer_nauticas none none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 15px;
     justify-items: center;
     margin: 2%;
@@ -279,7 +208,6 @@ html{
 }
 
 .header_nauticas{
-    grid-area: header_nauticas;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -289,13 +217,11 @@ html{
 }
 
 .main_nauticas{
-    grid-area: main_nauticas;
     width: 100%;
     height: 100%;
 }
 
 .footer_nauticas{
-    grid-area: footer_nauticas;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -395,7 +321,7 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 90px;
-    height: 90px;
+    height: 110px;
     object-fit: cover;
 }
 
@@ -405,18 +331,28 @@ header{
     font-family: 'Margin';
     font-weight: 200;
     font-size: 60px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    animation-name: efectotitulo;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 2s;
  }
 
+@keyframes efectotitulo{
+    0%{font-size: 60px}
+    50%{font-size: 65px};
+}
+ 
 .pages_h1{
     text-align: center;
     color: black;
     font-family: 'Margin';
     font-weight: 200;
     font-size: 60px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -424,7 +360,7 @@ h2{
     text-align: left;
     font-family: 'Poppins';
     color:#fae105;
-    padding: 40px;
+    padding: 20px;
     font-size: 20px;
     
 }
@@ -433,7 +369,7 @@ h3{
     text-align: center;
     font-family: 'Poppins';
     color: white;
-    padding:10px;
+    padding:20px;
     font-size: 20px;
 }
 
@@ -441,7 +377,7 @@ h3{
     text-align: center;
     font-family: 'Poppins';
     color: black;
-    padding:30px;
+    padding:20px;
     font-size: 20px;
 }
 
@@ -556,7 +492,8 @@ select{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
-    font-size: large;
+    font-size: medium;
+    margin:2px;
 }
 
 input{
@@ -565,8 +502,9 @@ input{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
-    font-size: large;
+    font-size: medium;
     align-items: center;
+    margin: 2px;
 }
 
 textarea{
@@ -575,7 +513,8 @@ textarea{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
-    font-size: large;  
+    font-size: medium;  
+    margin:2px;
 }
 
 .tablahockey_1{
@@ -659,6 +598,14 @@ footer{
     text-decoration: none;
     color: #fae105;
     font-size: 20px;
+    transition: all 0.5s;
+}
+
+.a_f:hover{
+    font-size: 21px;
+    font-weight: 400;
+    color:#fae105;
+    text-decoration: none;
 }
 
 .pages_a_f{
@@ -741,11 +688,10 @@ footer{
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
+
 }
 
 .header_contacto{
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -754,13 +700,11 @@ footer{
 }
 
 .main_contacto{
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_contacto{
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -771,7 +715,6 @@ footer{
     margin: 15px;
     justify-items: center;
     padding-top: 5px;
-    background-color: #fae105;
 }
 
 .contacto_1{
@@ -796,23 +739,12 @@ footer{
 }
 
 .body_basquet{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "header_basquet"
-    "main_basquet"
-    "footer_basquet";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_basquet{
-    grid-area: header_basquet;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -821,15 +753,11 @@ footer{
 }
 
 .main_basquet{
-    grid-area: main_basquet;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_basquet{
-    grid-area: footer_basquet;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -837,66 +765,37 @@ footer{
     justify-items: left;
 }
 
-.gridbasquet{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "imagenmbasquet"
-    "tablambasquet"
-    "imagenfbasquet"
-    "tablafbasquet";
-    grid-column-gap: 5px;
-    grid-row-gap:15px;
-    margin-top: 20px;
-    justify-items: center;
-}
-
 .imagenmbasquet{
-    grid-area: imagenmbasquet;
     width: 90%;
     height: 90%;
-    border: white 5px solid;
+
 }
 
 .imagenfbasquet{
-    grid-area: imagenfbasquet;
     width: 90%;
     height: 90%;
-    border: white 5px solid;
+
 }
 
 .tablambasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablambasquet;
 }
 
 .tablafbasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablafbasquet;
 }
 
 .body_nauticas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header_nauticas header_nauticas header_nauticas"
-    "main_nauticas main_nauticas main_nauticas"
-    "footer_nauticas footer_nauticas none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 5px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_nauticas{
-    grid-area: header_nauticas;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -905,15 +804,11 @@ footer{
 }
 
 .main_nauticas{
-    grid-area: main_nauticas;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_nauticas{
-    grid-area: footer_nauticas;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -921,23 +816,12 @@ footer{
 }
 
 .body_hockey{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header_hockey header_hockey header_hockey"
-    "main_hockey main_hockey main_hockey"
-    "footer_hockey footer_hockey none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 5px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_hockey{
-    grid-area: header_hockey;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -945,50 +829,25 @@ footer{
     align-items: center;
 }
 
-.main_hockey{
-    grid-area: main_hockey;
-    background-color: #fae105;
-}
-
 .grid_hockey{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "imageneshockey"
-    "tablahockey";
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
     margin-top: 10px;
     justify-items: center;
 }
 
 .imageneshockey{
-    grid-area: imageneshockey;
     width: 90%;
     height: 90%;
     border: none;
-}
-
-.imageneshockey_1{
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;   
-    border: white 5px solid;
 }
 
 .tablahockey{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablahockey;
     width: 100%;
 }
 
 .footer_hockey{
-    grid-area: footer_hockey;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -1190,6 +1049,7 @@ select{
     font-style: normal;
     font-weight: 200;
     font-size: small;
+    margin:1px;
 }
 
 input{
@@ -1200,6 +1060,7 @@ input{
     font-weight: 200;
     font-size: small;
     align-items: center;
+    margin:1px;
 }
 
 textarea{
@@ -1208,7 +1069,8 @@ textarea{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
-    font-size: small;  
+    font-size: small; 
+    margin:1px; 
 }
 
 .info{
@@ -1282,13 +1144,6 @@ tr{
     width: 100%;
 }
    
-   
-.grid_index{
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
-    margin-top: 20px;
-    justify-items: center;
-}
     
 .imagenes_index{
     object-fit: cover;
@@ -1308,11 +1163,9 @@ tr{
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_contacto{
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -1321,13 +1174,11 @@ tr{
 }
 
 .main_contacto{
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_contacto{
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -1339,7 +1190,6 @@ tr{
     margin: 15px;
     justify-items: center;
     padding-top: 5px;
-    background-color: #fae105;
 }
 
 .contacto_1{
@@ -1364,23 +1214,12 @@ tr{
 }
 
 .body_basquet{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "header_basquet"
-    "main_basquet"
-    "footer_basquet";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 15px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_basquet{
-    grid-area: header_basquet;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -1389,15 +1228,11 @@ tr{
 }
 
 .main_basquet{
-    grid-area: main_basquet;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_basquet{
-    grid-area: footer_basquet;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
@@ -1405,66 +1240,36 @@ tr{
     justify-items: left;
 }
 
-.gridbasquet{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "imagenmbasquet"
-    "tablambasquet"
-    "imagenfbasquet"
-    "tablafbasquet";
-    grid-column-gap: 5px;
-    grid-row-gap:15px;
-    margin-top: 20px;
-    justify-items: center;
-}
-
 .imagenmbasquet{
-    grid-area: imagenmbasquet;
     width: 90%;
     height: 90%;
-    border: white 5px solid;
+
 }
 
 .imagenfbasquet{
-    grid-area: imagenfbasquet;
     width: 90%;
     height: 90%;
-    border: white 5px solid;
 }
 
 .tablambasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablambasquet;
 }
 
 .tablafbasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: tablafbasquet;
 }
 
 .body_nauticas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header_nauticas header_nauticas header_nauticas"
-    "main_nauticas main_nauticas main_nauticas"
-    "footer_nauticas footer_nauticas none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 5px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_nauticas{
-    grid-area: header_nauticas;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -1473,39 +1278,24 @@ tr{
 }
 
 .main_nauticas{
-    grid-area: main_nauticas;
-    background-color: #fae105;
     width: 100%;
     height: 100%;
 }
 
 .footer_nauticas{
-    grid-area: footer_nauticas;
-    background-color: #fae105;
     font-family: 'Poppins';
-    font-style:normal;
+    font-style:normal;  
     font-weight: 200;
     margin:10px;
 }
 
 .body_hockey{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header_hockey header_hockey header_hockey"
-    "main_hockey main_hockey main_hockey"
-    "footer_hockey footer_hockey none";
-    grid-column-gap: 5px;
-    grid-row-gap:5px;
     margin: 5px;
     justify-items: center;
     margin: 2%;
-    background-color: #fae105;
 }
 
 .header_hockey{
-    grid-area: header_hockey;
-    background-color: #fae105;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -1513,37 +1303,15 @@ tr{
     align-items: center;
 }
 
-.main_hockey{
-    grid-area: main_hockey;
-    background-color: #fae105;
-}
-
 .grid_hockey{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "imageneshockey"
-    "tablahockey";
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
     margin-top: 10px;
     justify-items: center;
 }
 
 .imageneshockey{
-    grid-area: imageneshockey;
-    width: 90%;
-    height: 90%;
-    border: none;
-}
-
-.imageneshockey_1{
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;   
-    border: white 5px solid;
+    object-fit: cover;
+    height:150px;
+    width: 70%;
 }
 
 .tablahockey{
@@ -1551,16 +1319,15 @@ tr{
     flex-direction: column;
     align-items: center;
     grid-area: tablahockey;
-    width: 100%;
+    width: 10%;
 }
 
 .footer_hockey{
-    grid-area: footer_hockey;
-    background-color: #fae105;
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
-    margin:10px;
+    margin: 10px;
+    font-size: small;
 }
 
 
@@ -1758,6 +1525,7 @@ select{
     font-style: normal;
     font-weight: 200;
     font-size: small;
+    margin:1px;
 }
 
 input{
@@ -1768,6 +1536,7 @@ input{
     font-weight: 200;
     font-size: small;
     align-items: center;
+    margin:1px;
 }
 
 textarea{
@@ -1776,7 +1545,8 @@ textarea{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
-    font-size: small;  
+    font-size: small;
+    margin:1px;  
 }
 
 .info{
