@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap)
+}
+
+@font-face {
+    font-family: 'Margin';
+    src: url(../fuentes/OPTIMistral-Graff.otf);
+}
+
+
+.body_basquet{
+    margin: 15px;
+    justify-items: center;
+    margin: 2%;
+    background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
+}
+
+.header_basquet{
+    grid-area: header_contacto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+
+    .pages_h1{
+        text-align: center;
+        color: $colorprincipal;
+        font-family: 'Margin';
+        font-weight: 200;
+        font-size: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    img{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90px;
+        height: 110px;
+        object-fit: cover;
+    }
+}
+
+.main_basquet{
+    width: 100%;
+    height: 100%;
+}
+
+.pages_menu{
+    background-color: $colorprincipal;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: $colorsecundario;
+        font-size: 17px; 
+        font-weight: 300;
+        transition: all 0.1s;
+        &:hover{
+            font-size: 18px;
+            font-weight: 400;
+            color: $colorsecundario;
+        }
+    }
+
+    li{
+        font-family: 'Poppins';
+        font-style:normal;
+        font-weight: 300;
+        padding: 15px;
+        text-align: left;
+        list-style: none;
+    }
+}
+
+.imagenesbasquet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: black;
+}
+ 
+.tablambasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablafbasquet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablasbasquet{
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height:100%;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+}
+
+.footer_basquet{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+
+    .pages_a_f{
+        text-decoration: none;
+        color: $colorprincipal;
+        font-size: 17px;
+        &:hover{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}
+
+
+

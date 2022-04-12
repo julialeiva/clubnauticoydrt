@@ -1,0 +1,1358 @@
+@media screen and (max-width: 960px) {
+  .index_h1 {
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px; } }
+
+@media screen and (max-width: 768px) {
+  .body_index {
+    margin: 15px;
+    justify-items: center;
+    margin: 2%; }
+  .header_index {
+    grid-area: header_index;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .main_index {
+    grid-area: main_index; }
+  .grid_index {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "imagenes_index" "textos_index";
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    justify-items: center; }
+  .imagenes_index {
+    object-fit: cover;
+    height: 300px;
+    width: 70%; }
+  .footer_index {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px; }
+  .body_contacto {
+    margin: 15px;
+    justify-items: center;
+    margin: 2%; }
+  .header_contacto {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main_contacto {
+    width: 100%;
+    height: 100%; }
+  .footer_contacto {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px; }
+  .contacto {
+    margin: 15px;
+    justify-items: center;
+    padding-top: 5px; }
+  .contacto_1 {
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%; }
+  .contacto_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%; }
+  .contacto_3 {
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%; }
+  .body_basquet {
+    margin: 15px;
+    justify-items: center;
+    margin: 2%; }
+  .header_basquet {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main_basquet {
+    width: 100%;
+    height: 100%; }
+  .footer_basquet {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px;
+    justify-items: left; }
+  .imagenmbasquet {
+    width: 90%;
+    height: 90%; }
+  .imagenfbasquet {
+    width: 90%;
+    height: 90%; }
+  .tablambasquet {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .tablafbasquet {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .body_nauticas {
+    margin: 5px;
+    justify-items: center;
+    margin: 2%; }
+  .header_nauticas {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main_nauticas {
+    width: 100%;
+    height: 100%; }
+  .footer_nauticas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px; }
+  .body_hockey {
+    margin: 5px;
+    justify-items: center;
+    margin: 2%; }
+  .header_hockey {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .grid_hockey {
+    margin-top: 10px;
+    justify-items: center; }
+  .imageneshockey {
+    width: 90%;
+    height: 90%;
+    border: none; }
+  .tablahockey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+  .footer_hockey {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px; }
+  .escudo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 65px;
+    height: 65px;
+    object-fit: cover; }
+  .index_h1 {
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .menu {
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly; }
+  .pages_menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly; }
+  li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 5px;
+    text-align: left;
+    list-style: none; }
+  h2 {
+    text-align: left;
+    font-family: 'Poppins';
+    color: #fae105;
+    padding: 5px;
+    font-size: 80%; }
+  h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    padding: 5px;
+    font-size: 100%; }
+  .pages_h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    padding: 5px;
+    font-size: small; }
+  p {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-style: italic;
+    text-align: center; }
+  .imagenes {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 5px solid; }
+  .imagenesbasquet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: black; }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px; }
+  .pages_a {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px; }
+  .indice_pages {
+    text-decoration: none;
+    color: black;
+    font-size: 10px; }
+  .tablahockey_1 {
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200; }
+  .tablasbasquet {
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200; }
+  .imagenes {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+    padding: 15px; }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 70%;
+    font-size: small;
+    padding: 5px;
+    text-align: left;
+    list-style: none; }
+  select {
+    width: 70%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    margin: 1px; }
+  input {
+    width: 70%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    align-items: center;
+    margin: 1px; }
+  textarea {
+    width: 70%;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    margin: 1px; }
+  .info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    width: 90%; }
+  tr {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 8px; }
+  .a_f {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px; }
+  .pages_a_f {
+    text-decoration: none;
+    color: black;
+    font-size: small; } }
+
+@media screen and (max-width: 650px) {
+  .index_h1 {
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px; } }
+
+@media screen and (max-width: 425px) {
+  .body_index {
+    margin: 15px;
+    justify-items: center;
+    margin: 2%; }
+  .header_index {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .imagenes_index {
+    object-fit: cover;
+    height: 150px;
+    width: 70%; }
+  .footer_index {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px; }
+  .body_contacto {
+    margin: 15px;
+    justify-items: center;
+    margin: 2%; }
+  .header_contacto {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main_contacto {
+    width: 100%;
+    height: 100%; }
+  .footer_contacto {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px;
+    font-size: small; }
+  .contacto {
+    margin: 15px;
+    justify-items: center;
+    padding-top: 5px; }
+  .contacto_1 {
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%; }
+  .contacto_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%; }
+  .contacto_3 {
+    background-color: #fae105;
+    border: white 5px solid;
+    width: 90%; }
+  .body_basquet {
+    margin: 15px;
+    justify-items: center;
+    margin: 2%; }
+  .header_basquet {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main_basquet {
+    width: 100%;
+    height: 100%; }
+  .footer_basquet {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px;
+    justify-items: left; }
+  .imagenmbasquet {
+    width: 90%;
+    height: 90%; }
+  .imagenfbasquet {
+    width: 90%;
+    height: 90%; }
+  .tablambasquet {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .tablafbasquet {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .body_nauticas {
+    margin: 5px;
+    justify-items: center;
+    margin: 2%; }
+  .header_nauticas {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main_nauticas {
+    width: 100%;
+    height: 100%; }
+  .footer_nauticas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px; }
+  .body_hockey {
+    margin: 5px;
+    justify-items: center;
+    margin: 2%; }
+  .header_hockey {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; }
+  .grid_hockey {
+    margin-top: 10px;
+    justify-items: center; }
+  .imageneshockey {
+    object-fit: cover;
+    height: 150px;
+    width: 70%; }
+  .tablahockey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: tablahockey;
+    width: 10%; }
+  .footer_hockey {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 10px;
+    font-size: small; }
+  .escudo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10%;
+    height: 10%;
+    object-fit: cover; }
+  .index_h1 {
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .menu {
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly; }
+  .pages_menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly; }
+  li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 5px;
+    text-align: left;
+    list-style: none; }
+  h2 {
+    text-align: left;
+    font-family: 'Poppins';
+    color: #fae105;
+    padding: 5px;
+    font-size: 80%; }
+  h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    padding: 5px;
+    font-size: 100%; }
+  .pages_h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    padding: 5px;
+    font-size: small; }
+  p {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-style: italic;
+    text-align: center; }
+  .imagenes {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .imagenesbasquet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: black; }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px; }
+  .pages_a {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px; }
+  .indice_pages {
+    text-decoration: none;
+    color: black;
+    font-size: 10px; }
+  .tablahockey_1 {
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200; }
+  .tablasbasquet {
+    text-align: center;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200; }
+  .imagenes {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 5px solid; }
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+    padding: 15px; }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 70%;
+    font-size: small;
+    padding: 5px;
+    text-align: left;
+    list-style: none; }
+  select {
+    width: 70%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    margin: 1px; }
+  input {
+    width: 70%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    align-items: center;
+    margin: 1px; }
+  textarea {
+    width: 70%;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: small;
+    margin: 1px; }
+  .info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    width: 90%; }
+  tr {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 8px; }
+  .a_f {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 10px; }
+  .pages_a_f {
+    text-decoration: none;
+    color: black;
+    font-size: 10px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62,5%; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap); }
+
+@font-face {
+  font-family: 'Margin';
+  src: url(../fuentes/OPTIMistral-Graff.otf); }
+
+.body_index {
+  margin: 15px;
+  justify-items: center;
+  background-image: linear-gradient(135deg, #101111 65%, #fdf72d 100%);
+  margin: 2%; }
+
+.header_index {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background: transparent; }
+  .header_index h1 {
+    text-align: center;
+    color: #fae105;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .header_index img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90px;
+    height: 110px;
+    object-fit: cover; }
+
+.main_index {
+  background: transparent; }
+
+.menu {
+  background-color: #fae105;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.1s; }
+    .menu a:hover {
+      font-size: 18px;
+      font-weight: 500;
+      color: black; }
+  .menu li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none; }
+
+.imagenes_index {
+  object-fit: cover;
+  height: 450px;
+  width: 70%; }
+
+.footer_index {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  margin: 30px;
+  background: transparent; }
+
+.textos_index {
+  font-family: 'Poppins'; }
+  .textos_index h2 {
+    text-align: left;
+    color: #fae105;
+    padding: 20px;
+    font-size: 20px; }
+  .textos_index h3 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px; }
+  .textos_index p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify; }
+
+.footer_index {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .footer_index .a_f {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 17px;
+    transition: all 0.1s; }
+    .footer_index .a_f:hover {
+      font-size: 18px;
+      font-weight: 300; }
+  .footer_index img {
+    object-fit: fit; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62,5%; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap); }
+
+@font-face {
+  font-family: 'Margin';
+  src: url(../fuentes/OPTIMistral-Graff.otf); }
+
+.body_hockey {
+  margin: 15px;
+  justify-items: center;
+  margin: 2%;
+  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
+
+.header_hockey {
+  grid-area: header_contacto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background: transparent; }
+  .header_hockey .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .header_hockey img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90px;
+    height: 110px;
+    object-fit: cover; }
+
+.main_hockey {
+  width: 100%;
+  height: 100%; }
+
+.pages_menu {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .pages_menu a {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 17px;
+    font-weight: 300;
+    transition: all 0.1s; }
+    .pages_menu a:hover {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fae105; }
+  .pages_menu li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none; }
+
+.imageneshockey {
+  object-fit: cover;
+  height: 450px;
+  width: 70%; }
+
+.pages_h3 {
+  text-align: center;
+  font-family: 'Poppins';
+  color: black;
+  padding: 20px;
+  font-size: 20px; }
+
+.tablahockey {
+  text-align: center;
+  color: black;
+  border-color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  width: 100%; }
+
+.footer_hockey {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  margin: 50px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .footer_hockey .pages_a_f {
+    text-decoration: none;
+    color: black;
+    font-size: 17px; }
+    .footer_hockey .pages_a_f:hover {
+      font-size: 18px;
+      font-weight: 300; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62,5%; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap); }
+
+@font-face {
+  font-family: 'Margin';
+  src: url(../fuentes/OPTIMistral-Graff.otf); }
+
+.body_contacto {
+  margin: 15px;
+  justify-items: center;
+  margin: 2%;
+  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
+
+.header_contacto {
+  grid-area: header_contacto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background: transparent; }
+  .header_contacto .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .header_contacto img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90px;
+    height: 110px;
+    object-fit: cover; }
+
+.main_contacto {
+  width: 100%;
+  height: 100%; }
+
+.pages_menu {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .pages_menu a {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 17px;
+    font-weight: 300;
+    transition: all 0.1s; }
+    .pages_menu a:hover {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fae105; }
+  .pages_menu li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none; }
+
+.contacto {
+  margin: 15px;
+  justify-items: center;
+  padding-top: 5px; }
+  .contacto .pages_h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: black;
+    padding: 20px;
+    font-size: 20px; }
+  .contacto .contacto_1 {
+    background-color: #fae105;
+    border: white 5px solid; }
+    .contacto .contacto_1 iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 380px;
+      height: 500px;
+      padding: 15px; }
+  .contacto .contacto_2 {
+    background-color: #fae105;
+    border: white 5px solid; }
+    .contacto .contacto_2 .info {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      font-size: medium;
+      padding: 15px;
+      text-align: center;
+      list-style: none;
+      width: 90%; }
+  .contacto .contacto_3 {
+    background-color: #fae105;
+    border: white 5px solid; }
+    .contacto .contacto_3 .formulario {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      font-size: medium;
+      padding: 15px;
+      text-align: left;
+      list-style: none; }
+    .contacto .contacto_3 select {
+      width: 380px;
+      height: 30px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 200;
+      font-size: medium;
+      margin: 2px; }
+    .contacto .contacto_3 input {
+      width: 380px;
+      height: 30px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 200;
+      font-size: medium;
+      align-items: center;
+      margin: 2px; }
+    .contacto .contacto_3 textarea {
+      width: 380px;
+      height: 280px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 200;
+      font-size: medium;
+      margin: 2px; }
+
+.footer_contacto {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  margin: 50px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .footer_contacto .pages_a_f {
+    text-decoration: none;
+    color: black;
+    font-size: 17px; }
+    .footer_contacto .pages_a_f:hover {
+      font-size: 18px;
+      font-weight: 300; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62,5%; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap); }
+
+@font-face {
+  font-family: 'Margin';
+  src: url(../fuentes/OPTIMistral-Graff.otf); }
+
+.body_nauticas {
+  margin: 15px;
+  justify-items: center;
+  margin: 2%;
+  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
+
+.header_nauticas {
+  grid-area: header_contacto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background: transparent; }
+  .header_nauticas .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .header_nauticas img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90px;
+    height: 110px;
+    object-fit: cover; }
+
+.main_nauticas {
+  width: 100%;
+  height: 100%; }
+
+.imagenesnautica {
+  display: grid;
+  grid-template-columns: 0.75fr 0.75fr 0.75fr;
+  grid-template-rows: 0.75fr 0.75fr 0.75fr;
+  grid-template-areas: "imagennautica1 imagennautica4 imagennautica7" "imagennautica2 imagennautica5 imagennautica8" "imagennautica3 imagennautica6 imagennautica9";
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: white; }
+  .imagenesnautica .imagennautica1 {
+    grid-area: imagennautica1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica2 {
+    grid-area: imagennautica2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica3 {
+    grid-area: imagennautica3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica4 {
+    grid-area: imagennautica4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica5 {
+    grid-area: imagennautica5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica6 {
+    grid-area: imagennautica6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica7 {
+    grid-area: imagennautica7;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica8 {
+    grid-area: imagennautica8;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .imagenesnautica .imagennautica9 {
+    grid-area: imagennautica9;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.info {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: medium;
+  padding: 15px;
+  text-align: center;
+  list-style: none;
+  width: 90%; }
+
+.footer_nauticas {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  margin: 50px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .footer_nauticas .pages_a_f {
+    text-decoration: none;
+    color: black;
+    font-size: 17px; }
+    .footer_nauticas .pages_a_f:hover {
+      font-size: 18px;
+      font-weight: 300; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62,5%; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap); }
+
+@font-face {
+  font-family: 'Margin';
+  src: url(../fuentes/OPTIMistral-Graff.otf); }
+
+.body_basquet {
+  margin: 15px;
+  justify-items: center;
+  margin: 2%;
+  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
+
+.header_basquet {
+  grid-area: header_contacto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background: transparent; }
+  .header_basquet .pages_h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Margin';
+    font-weight: 200;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .header_basquet img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90px;
+    height: 110px;
+    object-fit: cover; }
+
+.main_basquet {
+  width: 100%;
+  height: 100%; }
+
+.pages_menu {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .pages_menu a {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 17px;
+    font-weight: 300;
+    transition: all 0.1s; }
+    .pages_menu a:hover {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fae105; }
+  .pages_menu li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none; }
+
+.imagenesbasquet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: black; }
+
+.tablambasquet {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.tablafbasquet {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.tablasbasquet {
+  text-align: center;
+  position: static;
+  border-color: black;
+  border-style: solid;
+  color: black;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 90%;
+  height: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200; }
+
+.footer_basquet {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  margin: 50px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .footer_basquet .pages_a_f {
+    text-decoration: none;
+    color: black;
+    font-size: 17px; }
+    .footer_basquet .pages_a_f:hover {
+      font-size: 18px;
+      font-weight: 300; }
