@@ -18,7 +18,7 @@ html{
 }
 
 .body_index{
-    margin: 15px;
+    margin-top: 15px;
     justify-items: center;
     background-image: linear-gradient(135deg, rgb(16, 17, 17) 65%, rgba(253,247,45,1) 100%);
     margin: 2%;
@@ -87,16 +87,10 @@ html{
 
 .imagenes_index{
     object-fit: cover;
-    height:450px;
-    width: 70%;
-}
-
-.footer_index{
-    font-family: 'Poppins';
-    font-style:normal;
-    font-weight: 200;
-    margin: 30px;
-    background: transparent;
+    height:480px;
+    width: 75%;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .textos_index{
@@ -139,15 +133,11 @@ html{
         text-decoration: none;
         color: $colorsecundario;
         font-size: 17px;
-        transition: all 0.1s;
-        &:hover{
-            font-size: 18px;
-            font-weight: 300;
         }
-    }
-
+    
     img{
         object-fit: fit;
     }
 }
+
 

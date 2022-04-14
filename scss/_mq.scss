@@ -4,752 +4,127 @@
 }
 
 @media screen and (max-width:960px){
-    .index_h1{
-        text-align: center;
-        color: #fae105;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
         
-    .pages_h1{
-        text-align: center;
-        color: black;
-        font-family: 'Margin';
-        font-weight: 200;
+.header_index{
+
+    h1{
         font-size: 40px;
         padding-top: 15px;
         padding-bottom: 10px;
     }
+}
+
+.header_pages{
+
+    .pages_h1{
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 10px;
     }
-    
+}
+}   
     
 @media screen and (max-width:768px){
 
-    .body_index{
-        margin: 15px;
-        justify-items: center;
-        margin: 2%;
-    }
-            
-    .header_index{
-        grid-area: header_index;
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+  
+.imagenes_index{
+    object-fit: cover;
+    height:300px;
+    width: 70%;
+}
         
-    .main_index{
-        grid-area: main_index;
-    }
-        
-    .imagenes_index{
-        object-fit: cover;
-        height:300px;
-        width: 70%;
-    }
-        
-    .footer_index{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin: 10px;
-    }
-
-    .body_contacto{
-        margin: 15px;
-        justify-items: center;
-        margin: 2%;
-
-    }
-
-    .header_contacto{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main_contacto{
-        width: 100%;
-        height: 100%;
-    }
-
-    .footer_contacto{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin:10px;
-    }
-
-    .contacto{
-        margin: 15px;
-        justify-items: center;
-        padding-top: 5px;
-    }
-
-    .contacto_1{
-        background-color: #fae105;
-        border: white 5px solid;
-        width: 90%;
-    }
-
-    .contacto_2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #fae105;
-        border: white 5px solid;
-        width: 90%;
-    }
-
-    .contacto_3{
-        background-color: #fae105;
-        border: white 5px solid;
-        width: 90%;
-    }
-
-    .body_basquet{
-        margin: 15px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_basquet{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main_basquet{
-        width: 100%;
-        height: 100%;
-    }
-
-    .footer_basquet{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin:10px;
-        justify-items: left;
-    }
-
-    .imagenmbasquet{
-        width: 90%;
-        height: 90%;
-
-    }
-
-    .imagenfbasquet{
-        width: 90%;
-        height: 90%;
-
-    }
-
-    .tablambasquet{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .tablafbasquet{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .body_nauticas{
-        margin: 5px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_nauticas{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main_nauticas{
-        width: 100%;
-        height: 100%;
-    }
-
-    .footer_nauticas{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin:10px;
-    }
-
-    .body_hockey{
-        margin: 5px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_hockey{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .grid_hockey{
-        margin-top: 10px;
-        justify-items: center;
-    }
-
-    .imageneshockey{
-        width: 90%;
-        height: 90%;
-        border: none;
-    }
-
-    .tablahockey{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .footer_hockey{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin:10px;
-    }
-
-
-    .escudo{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 65px;
-        height: 65px;
-        object-fit:cover;
-    }
-
-    .index_h1{
-        text-align: center;
-        color: #fae105;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
-        
-    .pages_h1{
-        text-align: center;
-        color: black;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
-
-    .menu{
-        background-color: #fae105;
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-evenly;
-    }
-        
-    .pages_menu{
-        background-color: black;
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-evenly;
-    }
-
-    li{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 300;
-        padding: 5px;
-        text-align: left;
-        list-style: none;
-    }
-
-    h2{
-        text-align: left;
-        font-family: 'Poppins';
-        color:#fae105;
-        padding: 5px;
-        font-size: 80%;
-    }
-        
-    h3{
-        text-align: center;
-        font-family: 'Poppins';
-        color: white;
-        padding:5px;
-        font-size: 100%;
-    }
-
-    .pages_h3{
-        text-align: center;
-        font-family: 'Poppins';
-        color: black;
-        padding: 5px;
-        font-size: small;
-    }
-
-    p{
-        color: white;
-        padding: 10px;
-        font-size: 10px;
-        font-weight: bold;
-        font-family:'Poppins';
-        font-style: italic;
-        text-align: center;
-    }
-
-    .imagenes{
-        display: block;
-        width: 95%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto; 
-        border: white 5px solid;  
-    }
-
-    .imagenesbasquet{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        border: black;
-        
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 10px;
-    }
-        
-    .pages_a{
-        text-decoration: none;
-        color: #fae105;
-        font-size: 10px; 
-    }
-        
-    .indice_pages{
-        text-decoration: none;
-        color:black;
-        font-size: 10px;
-    }
-
-    .tablahockey_1{
-        text-align: center;
-        position: static;
-        border-color: black;
-        border-style: solid;
-        color: black;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        width: 90%;
-        height:100%;
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-    }
-
-    .tablasbasquet{
-        text-align: center;
-        position: static;
-        border-color: black;
-        border-style: solid;
-        color: black;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        width: 90%;
-        height:100%;
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-    }
-
-    .imagenes{
-        display: block;
-        width: 95%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;   
-    }
-
-    iframe{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        height: 80%;
-        padding: 15px;
-    }
-
-    .formulario{
-        display:flex;
-        flex-direction: column; 
-        align-items: center;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 70%;
-        font-size: small;
-        padding: 5px;
-        text-align: left;
-        list-style: none;
-    }
-
-    select{
-        width: 70%;
-        height: 20px; 
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: small;
-        margin:1px;
-    }
-
-    input{
-        width: 70%;
-        height: 20px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: small;
-        align-items: center;
-        margin:1px;
-    }
-
-    textarea{
-        width: 70%;
-        height: 50px; 
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: small; 
-        margin:1px; 
-    }
-
-    .info{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: small;
-        padding: 15px;
-        text-align: center;
-        list-style: none;
-        width: 90%;
-    }
-
-    tr{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        font-size: 8px;
-    }
+.footer_index{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin-top: 10px;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
 
     .a_f{
         text-decoration: none;
-        color: #fae105;
-        font-size: 10px;
+        color: $colorsecundario;
+        font-size: 15px;
     }
+
+    img{
+        object-fit: fit;
+    }
+}
+
+
+.footer_pages{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
 
     .pages_a_f{
         text-decoration: none;
-        color: black;
-        font-size: small;
-    }    
+        color: $colorprincipal;
+        font-size: 15px;
+    }
+
+    img{
+        object-fit: fit;
+}
+}
 }
     
-@media screen and (max-width:650px){
+@media screen and (max-width:680px){
 
-    .index_h1{
-        text-align: center;
-        color: #fae105;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 20px;
-        padding-top: 15px;
+.header_index{
+
+    h1{
+        font-size: 25px;
+        padding-top: 12px;
         padding-bottom: 10px;
     }
-        
-    .pages_h1{
-        text-align: center;
-        color: black;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
-}
-    
-@media screen and (max-width:425px){
 
-    .body_index{
-        margin: 15px;
-        justify-items: center;
-        margin: 2%;
-    }
-            
-    .header_index{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-        
-        
-    .imagenes_index{
-        object-fit: cover;
-        height:150px;
-        width: 70%;
-    }
-        
-        
-    .footer_index{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin: 10px;
-    }
-
-    .body_contacto{
-        margin: 15px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_contacto{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main_contacto{
-        width: 100%;
-        height: 100%;
-    }
-
-    .footer_contacto{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin: 10px;
-        font-size: small;
-    }
-
-    .contacto{
-        margin: 15px;
-        justify-items: center;
-        padding-top: 5px;
-    }
-
-    .contacto_1{
-        background-color: #fae105;
-        border: white 5px solid;
-        width: 90%;
-    }
-
-    .contacto_2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #fae105;
-        border: white 5px solid;
-        width: 90%;
-    }
-
-    .contacto_3{
-        background-color: #fae105;
-        border: white 5px solid;
-        width: 90%;
-    }
-
-    .body_basquet{
-        margin: 15px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_basquet{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main_basquet{
-        width: 100%;
-        height: 100%;
-    }
-
-    .footer_basquet{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin:10px;
-        justify-items: left;
-    }
-
-    .imagenmbasquet{
-        width: 90%;
-        height: 90%;
-
-    }
-
-    .imagenfbasquet{
-        width: 90%;
-        height: 90%;
-    }
-
-    .tablambasquet{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .tablafbasquet{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .body_nauticas{
-        margin: 5px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_nauticas{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main_nauticas{
-        width: 100%;
-        height: 100%;
-    }
-
-    .footer_nauticas{
-        font-family: 'Poppins';
-        font-style:normal;  
-        font-weight: 200;
-        margin:10px;
-    }
-
-    .body_hockey{
-        margin: 5px;
-        justify-items: center;
-        margin: 2%;
-    }
-
-    .header_hockey{
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .grid_hockey{
-        margin-top: 10px;
-        justify-items: center;
-    }
-
-    .imageneshockey{
-        object-fit: cover;
-        height:150px;
-        width: 70%;
-    }
-
-    .tablahockey{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        grid-area: tablahockey;
-        width: 10%;
-    }
-
-    .footer_hockey{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        margin: 10px;
-        font-size: small;
-    }
-
-
-    .escudo{
+    img{
         padding-top: 10px;
         padding-bottom: 10px;
         width: 10%;
         height: 10%;
         object-fit:cover;
-    }
+        }
+}
 
-    .index_h1{
-        text-align: center;
-        color: #fae105;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
-        
+.header_pages{
+
     .pages_h1{
-        text-align: center;
-        color: black;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 20px;
-        padding-top: 15px;
+        font-size: 25px;
+        padding-top: 12px;
         padding-bottom: 10px;
     }
 
-    .menu{
-        background-color: #fae105;
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-evenly;
+    img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10%;
+    height: 10%;
+    object-fit:cover;
     }
-        
-    .pages_menu{
-        background-color: black;
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-evenly;
+}
+
+.menu{
+    background-color: $colorsecundario;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin:0%;
+
+    a{
+    font-size: 13px;
     }
 
     li{
@@ -760,200 +135,123 @@
         text-align: left;
         list-style: none;
     }
+}
 
-    h2{
-        text-align: left;
-        font-family: 'Poppins';
-        color:#fae105;
-        padding: 5px;
-        font-size: 80%;
-    }
-        
-    h3{
-        text-align: center;
-        font-family: 'Poppins';
-        color: white;
-        padding:5px;
-        font-size: 100%;
-    }
-
-    .pages_h3{
-        text-align: center;
-        font-family: 'Poppins';
-        color: black;
-        padding: 5px;
-        font-size: small;
-    }
-
-    p{
-        color: white;
-        padding: 10px;
-        font-size: 10px;
-        font-weight: bold;
-        font-family:'Poppins';
-        font-style: italic;
-        text-align: center;
-    }
-
-    .imagenes{
-        display: block;
-        width: 95%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;   
-    }
-
-    .imagenesbasquet{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        border: black;
-        
-    }
+.pages_menu{
+    background-color: $colorprincipal;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin:0%;
 
     a{
-        text-decoration: none;
-        color: black;
-        font-size: 10px;
-    }
-        
-    .pages_a{
-        text-decoration: none;
-        color: #fae105;
-        font-size: 10px; 
-    }
-        
-    .indice_pages{
-        text-decoration: none;
-        color:black;
-        font-size: 10px;
-    }
-
-    .tablahockey_1{
-        text-align: center;
-        position: static;
-        border-color: black;
-        border-style: solid;
-        color: black;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        width: 90%;
-        height:100%;
+        font-size: 13px;
+        }
+ 
+    li{
         font-family: 'Poppins';
         font-style:normal;
-        font-weight: 200;
-    }
-
-    .tablasbasquet{
-        text-align: center;
-        position: static;
-        border-color: black;
-        border-style: solid;
-        color: black;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        width: 90%;
-        height:100%;
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-    }
-
-    .imagenes{
-        display: block;
-        width: 95%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto; 
-        border: white 5px solid;  
-    }
-
-    iframe{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        height: 80%;
-        padding: 15px;
-    }
-
-    .formulario{
-        display:flex;
-        flex-direction: column; 
-        align-items: center;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 70%;
-        font-size: small;
+        font-weight: 300;
         padding: 5px;
         text-align: left;
         list-style: none;
     }
+}
 
-    select{
-        width: 70%;
-        height: 20px; 
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: small;
-        margin:1px;
-    }
-
-    input{
-        width: 70%;
-        height: 20px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: small;
-        align-items: center;
-        margin:1px;
-    }
-
-    textarea{
-        width: 70%;
-        height: 50px; 
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 200;
-        font-size: small;
-        margin:1px;  
-    }
-
-    .info{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: small;
-        padding: 15px;
-        text-align: center;
-        list-style: none;
-        width: 90%;
-    }
-
-    tr{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 200;
-        font-size: 8px;
-    }
+.footer_index{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin-top: 10px;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
 
     .a_f{
         text-decoration: none;
-        color: #fae105;
-        font-size: 10px;
+        color: $colorsecundario;
+        font-size: 15px;
     }
+
+    img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+.footer_pages{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 200;
+    margin:50px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
 
     .pages_a_f{
         text-decoration: none;
-        color: black;
-        font-size: 10px;
+        color: $colorprincipal;
+        font-size: 15px;
     }
+
+    img{
+        width: 25px;
+        height: 25px;
+}
+}
+
+}
+    
+@media screen and (max-width:425px){
+
+.menu{
+    background-color: $colorsecundario;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin:0%;
+
+    a{
+    font-size: 10px;
+    }
+
+    li{
+        font-family: 'Poppins';
+        font-style:normal;
+        font-weight: 300;
+        padding: 5px;
+        text-align: left;
+        list-style: none;
+    }
+}
+
+.pages_menu{
+    background-color: $colorprincipal;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin:0%;
+    
+    a{
+        font-size: 10px;
+        }
+ 
+    li{
+        font-family: 'Poppins';
+        font-style:normal;
+        font-weight: 300;
+        padding: 5px;
+        text-align: left;
+        list-style: none;
+    }
+}
 
 }

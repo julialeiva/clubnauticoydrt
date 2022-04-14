@@ -18,13 +18,13 @@ html{
 }
 
 .body_contacto{
-    margin: 15px;
+    margin-top: 15px;
     justify-items: center;
-    margin: 2%;
     background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
+    margin: 2%;
 }
 
-.header_contacto{
+.header_pages{
     grid-area: header_contacto;
     display: flex;
     flex-direction: row;
@@ -101,22 +101,27 @@ html{
     }
 
     .contacto_1{
-        background-color: $colorsecundario;
-        border: white 5px solid;
+        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+        background-color: white;
+        margin-bottom: 1%;
+        padding:15px;
 
         iframe{
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 380px;
+            width: 80%;
             height: 500px;
-            padding: 15px;
+            margin-left: 10%;
+            margin-right: 10%;
         }
     }
 
     .contacto_2{
-        background-color: $colorsecundario;
-        border: white 5px solid;
+        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+        background-color: white;
+        margin-bottom: 1%;
+        padding:15px;
 
         .info{
             font-family: 'Poppins';
@@ -126,13 +131,16 @@ html{
             padding: 15px;
             text-align: center;
             list-style: none;
-            width: 90%;
+            width: 100%;
         }
     }
 
     .contacto_3{
-        background-color: $colorsecundario;
-        border: white 5px solid;
+        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+        background-color: white;
+        margin-bottom: 1%;
+        padding:15px;
+        
 
         .formulario{
             display:flex;
@@ -145,10 +153,24 @@ html{
             padding: 15px;
             text-align: left;
             list-style: none;
+
+            .form{
+            margin-bottom:5px;
+            margin-left: 10%;
+            margin-right: 10%;
+            }
+
+            .formboton{
+                background-color: $colorprincipal;
+                border-color: $colorprincipal;
+                margin-bottom:5px;
+                margin-left: 20%;
+                margin-right:20%;
+                }
         }
     
         select{
-            width: 380px;
+            width: 80%;
             height: 30px; 
             font-family: 'Poppins';
             font-style: normal;
@@ -158,7 +180,7 @@ html{
         }
         
         input{
-            width: 380px;
+            width: 80%;
             height: 30px;
             font-family: 'Poppins';
             font-style: normal;
@@ -169,7 +191,7 @@ html{
         }
         
         textarea{
-            width: 380px;
+            width: 80%;
             height: 280px; 
             font-family: 'Poppins';
             font-style: normal;
@@ -180,7 +202,7 @@ html{
     }
 }
 
-.footer_contacto{
+.footer_pages{
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;

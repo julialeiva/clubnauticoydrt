@@ -1,713 +1,3 @@
-@media screen and (max-width: 960px) {
-  .index_h1 {
-    text-align: center;
-    color: #fae105;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px; }
-  .pages_h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px; } }
-
-@media screen and (max-width: 768px) {
-  .body_index {
-    margin: 15px;
-    justify-items: center;
-    margin: 2%; }
-  .header_index {
-    grid-area: header_index;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%; }
-  .main_index {
-    grid-area: main_index; }
-  .grid_index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "imagenes_index" "textos_index";
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
-    margin-top: 20px;
-    justify-items: center; }
-  .imagenes_index {
-    object-fit: cover;
-    height: 300px;
-    width: 70%; }
-  .footer_index {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px; }
-  .body_contacto {
-    margin: 15px;
-    justify-items: center;
-    margin: 2%; }
-  .header_contacto {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main_contacto {
-    width: 100%;
-    height: 100%; }
-  .footer_contacto {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px; }
-  .contacto {
-    margin: 15px;
-    justify-items: center;
-    padding-top: 5px; }
-  .contacto_1 {
-    background-color: #fae105;
-    border: white 5px solid;
-    width: 90%; }
-  .contacto_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #fae105;
-    border: white 5px solid;
-    width: 90%; }
-  .contacto_3 {
-    background-color: #fae105;
-    border: white 5px solid;
-    width: 90%; }
-  .body_basquet {
-    margin: 15px;
-    justify-items: center;
-    margin: 2%; }
-  .header_basquet {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main_basquet {
-    width: 100%;
-    height: 100%; }
-  .footer_basquet {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px;
-    justify-items: left; }
-  .imagenmbasquet {
-    width: 90%;
-    height: 90%; }
-  .imagenfbasquet {
-    width: 90%;
-    height: 90%; }
-  .tablambasquet {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .tablafbasquet {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .body_nauticas {
-    margin: 5px;
-    justify-items: center;
-    margin: 2%; }
-  .header_nauticas {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main_nauticas {
-    width: 100%;
-    height: 100%; }
-  .footer_nauticas {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px; }
-  .body_hockey {
-    margin: 5px;
-    justify-items: center;
-    margin: 2%; }
-  .header_hockey {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .grid_hockey {
-    margin-top: 10px;
-    justify-items: center; }
-  .imageneshockey {
-    width: 90%;
-    height: 90%;
-    border: none; }
-  .tablahockey {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; }
-  .footer_hockey {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px; }
-  .escudo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 65px;
-    height: 65px;
-    object-fit: cover; }
-  .index_h1 {
-    text-align: center;
-    color: #fae105;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px; }
-  .pages_h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 10px; }
-  .menu {
-    background-color: #fae105;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly; }
-  .pages_menu {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly; }
-  li {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    padding: 5px;
-    text-align: left;
-    list-style: none; }
-  h2 {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #fae105;
-    padding: 5px;
-    font-size: 80%; }
-  h3 {
-    text-align: center;
-    font-family: 'Poppins';
-    color: white;
-    padding: 5px;
-    font-size: 100%; }
-  .pages_h3 {
-    text-align: center;
-    font-family: 'Poppins';
-    color: black;
-    padding: 5px;
-    font-size: small; }
-  p {
-    color: white;
-    padding: 10px;
-    font-size: 10px;
-    font-weight: bold;
-    font-family: 'Poppins';
-    font-style: italic;
-    text-align: center; }
-  .imagenes {
-    display: block;
-    width: 95%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border: white 5px solid; }
-  .imagenesbasquet {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border: black; }
-  a {
-    text-decoration: none;
-    color: black;
-    font-size: 10px; }
-  .pages_a {
-    text-decoration: none;
-    color: #fae105;
-    font-size: 10px; }
-  .indice_pages {
-    text-decoration: none;
-    color: black;
-    font-size: 10px; }
-  .tablahockey_1 {
-    text-align: center;
-    position: static;
-    border-color: black;
-    border-style: solid;
-    color: black;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height: 100%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200; }
-  .tablasbasquet {
-    text-align: center;
-    position: static;
-    border-color: black;
-    border-style: solid;
-    color: black;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height: 100%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200; }
-  .imagenes {
-    display: block;
-    width: 95%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-  iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 80%;
-    padding: 15px; }
-  .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 70%;
-    font-size: small;
-    padding: 5px;
-    text-align: left;
-    list-style: none; }
-  select {
-    width: 70%;
-    height: 20px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: small;
-    margin: 1px; }
-  input {
-    width: 70%;
-    height: 20px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: small;
-    align-items: center;
-    margin: 1px; }
-  textarea {
-    width: 70%;
-    height: 50px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: small;
-    margin: 1px; }
-  .info {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: small;
-    padding: 15px;
-    text-align: center;
-    list-style: none;
-    width: 90%; }
-  tr {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 8px; }
-  .a_f {
-    text-decoration: none;
-    color: #fae105;
-    font-size: 10px; }
-  .pages_a_f {
-    text-decoration: none;
-    color: black;
-    font-size: small; } }
-
-@media screen and (max-width: 650px) {
-  .index_h1 {
-    text-align: center;
-    color: #fae105;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px; }
-  .pages_h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px; } }
-
-@media screen and (max-width: 425px) {
-  .body_index {
-    margin: 15px;
-    justify-items: center;
-    margin: 2%; }
-  .header_index {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%; }
-  .imagenes_index {
-    object-fit: cover;
-    height: 150px;
-    width: 70%; }
-  .footer_index {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px; }
-  .body_contacto {
-    margin: 15px;
-    justify-items: center;
-    margin: 2%; }
-  .header_contacto {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main_contacto {
-    width: 100%;
-    height: 100%; }
-  .footer_contacto {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px;
-    font-size: small; }
-  .contacto {
-    margin: 15px;
-    justify-items: center;
-    padding-top: 5px; }
-  .contacto_1 {
-    background-color: #fae105;
-    border: white 5px solid;
-    width: 90%; }
-  .contacto_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #fae105;
-    border: white 5px solid;
-    width: 90%; }
-  .contacto_3 {
-    background-color: #fae105;
-    border: white 5px solid;
-    width: 90%; }
-  .body_basquet {
-    margin: 15px;
-    justify-items: center;
-    margin: 2%; }
-  .header_basquet {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main_basquet {
-    width: 100%;
-    height: 100%; }
-  .footer_basquet {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px;
-    justify-items: left; }
-  .imagenmbasquet {
-    width: 90%;
-    height: 90%; }
-  .imagenfbasquet {
-    width: 90%;
-    height: 90%; }
-  .tablambasquet {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .tablafbasquet {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .body_nauticas {
-    margin: 5px;
-    justify-items: center;
-    margin: 2%; }
-  .header_nauticas {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main_nauticas {
-    width: 100%;
-    height: 100%; }
-  .footer_nauticas {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px; }
-  .body_hockey {
-    margin: 5px;
-    justify-items: center;
-    margin: 2%; }
-  .header_hockey {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: center; }
-  .grid_hockey {
-    margin-top: 10px;
-    justify-items: center; }
-  .imageneshockey {
-    object-fit: cover;
-    height: 150px;
-    width: 70%; }
-  .tablahockey {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: tablahockey;
-    width: 10%; }
-  .footer_hockey {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    margin: 10px;
-    font-size: small; }
-  .escudo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 10%;
-    height: 10%;
-    object-fit: cover; }
-  .index_h1 {
-    text-align: center;
-    color: #fae105;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px; }
-  .pages_h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Margin';
-    font-weight: 200;
-    font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px; }
-  .menu {
-    background-color: #fae105;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly; }
-  .pages_menu {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly; }
-  li {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    padding: 5px;
-    text-align: left;
-    list-style: none; }
-  h2 {
-    text-align: left;
-    font-family: 'Poppins';
-    color: #fae105;
-    padding: 5px;
-    font-size: 80%; }
-  h3 {
-    text-align: center;
-    font-family: 'Poppins';
-    color: white;
-    padding: 5px;
-    font-size: 100%; }
-  .pages_h3 {
-    text-align: center;
-    font-family: 'Poppins';
-    color: black;
-    padding: 5px;
-    font-size: small; }
-  p {
-    color: white;
-    padding: 10px;
-    font-size: 10px;
-    font-weight: bold;
-    font-family: 'Poppins';
-    font-style: italic;
-    text-align: center; }
-  .imagenes {
-    display: block;
-    width: 95%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-  .imagenesbasquet {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border: black; }
-  a {
-    text-decoration: none;
-    color: black;
-    font-size: 10px; }
-  .pages_a {
-    text-decoration: none;
-    color: #fae105;
-    font-size: 10px; }
-  .indice_pages {
-    text-decoration: none;
-    color: black;
-    font-size: 10px; }
-  .tablahockey_1 {
-    text-align: center;
-    position: static;
-    border-color: black;
-    border-style: solid;
-    color: black;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height: 100%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200; }
-  .tablasbasquet {
-    text-align: center;
-    position: static;
-    border-color: black;
-    border-style: solid;
-    color: black;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height: 100%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200; }
-  .imagenes {
-    display: block;
-    width: 95%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border: white 5px solid; }
-  iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 80%;
-    padding: 15px; }
-  .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 70%;
-    font-size: small;
-    padding: 5px;
-    text-align: left;
-    list-style: none; }
-  select {
-    width: 70%;
-    height: 20px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: small;
-    margin: 1px; }
-  input {
-    width: 70%;
-    height: 20px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: small;
-    align-items: center;
-    margin: 1px; }
-  textarea {
-    width: 70%;
-    height: 50px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: small;
-    margin: 1px; }
-  .info {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: small;
-    padding: 15px;
-    text-align: center;
-    list-style: none;
-    width: 90%; }
-  tr {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 8px; }
-  .a_f {
-    text-decoration: none;
-    color: #fae105;
-    font-size: 10px; }
-  .pages_a_f {
-    text-decoration: none;
-    color: black;
-    font-size: 10px; } }
-
 * {
   margin: 0;
   padding: 0; }
@@ -724,7 +14,7 @@ html {
   src: url(../fuentes/OPTIMistral-Graff.otf); }
 
 .body_index {
-  margin: 15px;
+  margin-top: 15px;
   justify-items: center;
   background-image: linear-gradient(135deg, #101111 65%, #fdf72d 100%);
   margin: 2%; }
@@ -780,15 +70,10 @@ html {
 
 .imagenes_index {
   object-fit: cover;
-  height: 450px;
-  width: 70%; }
-
-.footer_index {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 200;
-  margin: 30px;
-  background: transparent; }
+  height: 480px;
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .textos_index {
   font-family: 'Poppins'; }
@@ -821,11 +106,7 @@ html {
   .footer_index .a_f {
     text-decoration: none;
     color: #fae105;
-    font-size: 17px;
-    transition: all 0.1s; }
-    .footer_index .a_f:hover {
-      font-size: 18px;
-      font-weight: 300; }
+    font-size: 17px; }
   .footer_index img {
     object-fit: fit; }
 
@@ -845,12 +126,11 @@ html {
   src: url(../fuentes/OPTIMistral-Graff.otf); }
 
 .body_hockey {
-  margin: 15px;
   justify-items: center;
-  margin: 2%;
+  margin-top: 15px;
   background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
 
-.header_hockey {
+.header_pages {
   grid-area: header_contacto;
   display: flex;
   flex-direction: row;
@@ -858,7 +138,7 @@ html {
   justify-content: center;
   align-items: center;
   background: transparent; }
-  .header_hockey .pages_h1 {
+  .header_pages .pages_h1 {
     text-align: center;
     color: black;
     font-family: 'Margin';
@@ -866,7 +146,7 @@ html {
     font-size: 60px;
     padding-top: 25px;
     padding-bottom: 25px; }
-  .header_hockey img {
+  .header_pages img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 90px;
@@ -882,7 +162,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin: 2%; }
   .pages_menu a {
     text-decoration: none;
     color: #fae105;
@@ -901,10 +182,12 @@ html {
     text-align: left;
     list-style: none; }
 
-.imageneshockey {
-  object-fit: cover;
-  height: 450px;
-  width: 70%; }
+.carruselhockey {
+  margin-top: 50px; }
+  .carruselhockey .imageneshockey {
+    object-fit: cover;
+    height: 480px;
+    width: 70%; }
 
 .pages_h3 {
   text-align: center;
@@ -913,16 +196,33 @@ html {
   padding: 20px;
   font-size: 20px; }
 
-.tablahockey {
-  text-align: center;
-  color: black;
-  border-color: black;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 200;
-  width: 100%; }
+.horarioshockey {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%); }
+  .horarioshockey .horarios {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-left: 15%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+    .horarioshockey .horarios .tablahockey {
+      text-align: center;
+      color: black;
+      border-color: black;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 200;
+      width: 100%;
+      background-color: transparent; }
 
-.footer_hockey {
+.footer_pages {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
@@ -932,11 +232,11 @@ html {
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center; }
-  .footer_hockey .pages_a_f {
+  .footer_pages .pages_a_f {
     text-decoration: none;
     color: black;
     font-size: 17px; }
-    .footer_hockey .pages_a_f:hover {
+    .footer_pages .pages_a_f:hover {
       font-size: 18px;
       font-weight: 300; }
 
@@ -956,12 +256,12 @@ html {
   src: url(../fuentes/OPTIMistral-Graff.otf); }
 
 .body_contacto {
-  margin: 15px;
+  margin-top: 15px;
   justify-items: center;
-  margin: 2%;
-  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
+  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
+  margin: 2%; }
 
-.header_contacto {
+.header_pages {
   grid-area: header_contacto;
   display: flex;
   flex-direction: row;
@@ -969,7 +269,7 @@ html {
   justify-content: center;
   align-items: center;
   background: transparent; }
-  .header_contacto .pages_h1 {
+  .header_pages .pages_h1 {
     text-align: center;
     color: black;
     font-family: 'Margin';
@@ -977,7 +277,7 @@ html {
     font-size: 60px;
     padding-top: 25px;
     padding-bottom: 25px; }
-  .header_contacto img {
+  .header_pages img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 90px;
@@ -1023,18 +323,23 @@ html {
     padding: 20px;
     font-size: 20px; }
   .contacto .contacto_1 {
-    background-color: #fae105;
-    border: white 5px solid; }
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    background-color: white;
+    margin-bottom: 1%;
+    padding: 15px; }
     .contacto .contacto_1 iframe {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 380px;
+      width: 80%;
       height: 500px;
-      padding: 15px; }
+      margin-left: 10%;
+      margin-right: 10%; }
   .contacto .contacto_2 {
-    background-color: #fae105;
-    border: white 5px solid; }
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    background-color: white;
+    margin-bottom: 1%;
+    padding: 15px; }
     .contacto .contacto_2 .info {
       font-family: 'Poppins';
       font-style: normal;
@@ -1043,10 +348,12 @@ html {
       padding: 15px;
       text-align: center;
       list-style: none;
-      width: 90%; }
+      width: 100%; }
   .contacto .contacto_3 {
-    background-color: #fae105;
-    border: white 5px solid; }
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    background-color: white;
+    margin-bottom: 1%;
+    padding: 15px; }
     .contacto .contacto_3 .formulario {
       display: flex;
       flex-direction: column;
@@ -1058,8 +365,18 @@ html {
       padding: 15px;
       text-align: left;
       list-style: none; }
+      .contacto .contacto_3 .formulario .form {
+        margin-bottom: 5px;
+        margin-left: 10%;
+        margin-right: 10%; }
+      .contacto .contacto_3 .formulario .formboton {
+        background-color: black;
+        border-color: black;
+        margin-bottom: 5px;
+        margin-left: 20%;
+        margin-right: 20%; }
     .contacto .contacto_3 select {
-      width: 380px;
+      width: 80%;
       height: 30px;
       font-family: 'Poppins';
       font-style: normal;
@@ -1067,7 +384,7 @@ html {
       font-size: medium;
       margin: 2px; }
     .contacto .contacto_3 input {
-      width: 380px;
+      width: 80%;
       height: 30px;
       font-family: 'Poppins';
       font-style: normal;
@@ -1076,7 +393,7 @@ html {
       align-items: center;
       margin: 2px; }
     .contacto .contacto_3 textarea {
-      width: 380px;
+      width: 80%;
       height: 280px;
       font-family: 'Poppins';
       font-style: normal;
@@ -1084,7 +401,7 @@ html {
       font-size: medium;
       margin: 2px; }
 
-.footer_contacto {
+.footer_pages {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
@@ -1094,11 +411,11 @@ html {
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center; }
-  .footer_contacto .pages_a_f {
+  .footer_pages .pages_a_f {
     text-decoration: none;
     color: black;
     font-size: 17px; }
-    .footer_contacto .pages_a_f:hover {
+    .footer_pages .pages_a_f:hover {
       font-size: 18px;
       font-weight: 300; }
 
@@ -1118,12 +435,12 @@ html {
   src: url(../fuentes/OPTIMistral-Graff.otf); }
 
 .body_nauticas {
-  margin: 15px;
+  margin-top: 15px;
   justify-items: center;
-  margin: 2%;
-  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
+  background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
+  margin: 2%; }
 
-.header_nauticas {
+.header_pages {
   grid-area: header_contacto;
   display: flex;
   flex-direction: row;
@@ -1131,7 +448,7 @@ html {
   justify-content: center;
   align-items: center;
   background: transparent; }
-  .header_nauticas .pages_h1 {
+  .header_pages .pages_h1 {
     text-align: center;
     color: black;
     font-family: 'Margin';
@@ -1139,7 +456,7 @@ html {
     font-size: 60px;
     padding-top: 25px;
     padding-bottom: 25px; }
-  .header_nauticas img {
+  .header_pages img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 90px;
@@ -1149,6 +466,30 @@ html {
 .main_nauticas {
   width: 100%;
   height: 100%; }
+
+.pages_menu {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center; }
+  .pages_menu a {
+    text-decoration: none;
+    color: #fae105;
+    font-size: 17px;
+    font-weight: 300;
+    transition: all 0.1s; }
+    .pages_menu a:hover {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fae105; }
+  .pages_menu li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    list-style: none; }
 
 .imagenesnautica {
   display: grid;
@@ -1216,7 +557,7 @@ html {
   list-style: none;
   width: 90%; }
 
-.footer_nauticas {
+.footer_pages {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
@@ -1226,11 +567,11 @@ html {
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center; }
-  .footer_nauticas .pages_a_f {
+  .footer_pages .pages_a_f {
     text-decoration: none;
     color: black;
     font-size: 17px; }
-    .footer_nauticas .pages_a_f:hover {
+    .footer_pages .pages_a_f:hover {
       font-size: 18px;
       font-weight: 300; }
 
@@ -1250,12 +591,11 @@ html {
   src: url(../fuentes/OPTIMistral-Graff.otf); }
 
 .body_basquet {
-  margin: 15px;
+  margin-top: 15px;
   justify-items: center;
-  margin: 2%;
   background-image: linear-gradient(135deg, #fae105 23%, rgba(236, 240, 16, 0.979) 100%); }
 
-.header_basquet {
+.header_pages {
   grid-area: header_contacto;
   display: flex;
   flex-direction: row;
@@ -1263,7 +603,7 @@ html {
   justify-content: center;
   align-items: center;
   background: transparent; }
-  .header_basquet .pages_h1 {
+  .header_pages .pages_h1 {
     text-align: center;
     color: black;
     font-family: 'Margin';
@@ -1271,7 +611,7 @@ html {
     font-size: 60px;
     padding-top: 25px;
     padding-bottom: 25px; }
-  .header_basquet img {
+  .header_pages img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 90px;
@@ -1287,7 +627,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin: 2%; }
   .pages_menu a {
     text-decoration: none;
     color: #fae105;
@@ -1302,44 +643,75 @@ html {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
-    padding: 15px;
     text-align: left;
     list-style: none; }
 
-.imagenesbasquet {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border: black; }
+.imagenesbas {
+  margin: 1%; }
+  .imagenesbas .imagenesbasquet {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    border: black; }
+  .imagenesbas .flecham {
+    height: 50%;
+    transform: rotate(180deg); }
+  .imagenesbas .flechaf {
+    height: 50%;
+    transform: rotate(180deg); }
 
 .tablambasquet {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 50px;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background-color: white;
+  padding-left: 15%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+  .tablambasquet .tablasbasquet {
+    text-align: center;
+    position: static;
+    border-color: black;
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200; }
 
 .tablafbasquet {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 50px;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+  background-color: white;
+  padding-left: 2%;
+  padding-right: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+  .tablafbasquet .tablasbasquet {
+    text-align: center;
+    position: static;
+    border-color: black;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200; }
 
-.tablasbasquet {
-  text-align: center;
-  position: static;
-  border-color: black;
-  border-style: solid;
-  color: black;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  width: 90%;
-  height: 100%;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 200; }
-
-.footer_basquet {
+.footer_pages {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
@@ -1349,10 +721,184 @@ html {
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center; }
-  .footer_basquet .pages_a_f {
+  .footer_pages .pages_a_f {
     text-decoration: none;
     color: black;
     font-size: 17px; }
-    .footer_basquet .pages_a_f:hover {
+    .footer_pages .pages_a_f:hover {
       font-size: 18px;
       font-weight: 300; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 960px) {
+  .header_index h1 {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  .header_pages .pages_h1 {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px; } }
+
+@media screen and (max-width: 768px) {
+  .imagenes_index {
+    object-fit: cover;
+    height: 300px;
+    width: 70%; }
+  .footer_index {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center; }
+    .footer_index .a_f {
+      text-decoration: none;
+      color: #fae105;
+      font-size: 15px; }
+    .footer_index img {
+      object-fit: fit; }
+  .footer_pages {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 50px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center; }
+    .footer_pages .pages_a_f {
+      text-decoration: none;
+      color: black;
+      font-size: 15px; }
+    .footer_pages img {
+      object-fit: fit; } }
+
+@media screen and (max-width: 680px) {
+  .header_index h1 {
+    font-size: 25px;
+    padding-top: 12px;
+    padding-bottom: 10px; }
+  .header_index img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10%;
+    height: 10%;
+    object-fit: cover; }
+  .header_pages .pages_h1 {
+    font-size: 25px;
+    padding-top: 12px;
+    padding-bottom: 10px; }
+  .header_pages img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10%;
+    height: 10%;
+    object-fit: cover; }
+  .menu {
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin: 0%; }
+    .menu a {
+      font-size: 13px; }
+    .menu li {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      padding: 5px;
+      text-align: left;
+      list-style: none; }
+  .pages_menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin: 0%; }
+    .pages_menu a {
+      font-size: 13px; }
+    .pages_menu li {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      padding: 5px;
+      text-align: left;
+      list-style: none; }
+  .footer_index {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center; }
+    .footer_index .a_f {
+      text-decoration: none;
+      color: #fae105;
+      font-size: 15px; }
+    .footer_index img {
+      width: 25px;
+      height: 25px; }
+  .footer_pages {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    margin: 50px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center; }
+    .footer_pages .pages_a_f {
+      text-decoration: none;
+      color: black;
+      font-size: 15px; }
+    .footer_pages img {
+      width: 25px;
+      height: 25px; } }
+
+@media screen and (max-width: 425px) {
+  .menu {
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin: 0%; }
+    .menu a {
+      font-size: 10px; }
+    .menu li {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      padding: 5px;
+      text-align: left;
+      list-style: none; }
+  .pages_menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin: 0%; }
+    .pages_menu a {
+      font-size: 10px; }
+    .pages_menu li {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      padding: 5px;
+      text-align: left;
+      list-style: none; } }

@@ -19,13 +19,13 @@ html{
 
 
 .body_basquet{
-    margin: 15px;
+    margin-top: 15px;
     justify-items: center;
-    margin: 2%;
     background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
+
 }
 
-.header_basquet{
+.header_pages{
     grid-area: header_contacto;
     display: flex;
     flex-direction: row;
@@ -64,6 +64,7 @@ html{
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
+    margin: 2%;
 
     a{
         text-decoration: none;
@@ -82,50 +83,94 @@ html{
         font-family: 'Poppins';
         font-style:normal;
         font-weight: 300;
-        padding: 15px;
         text-align: left;
         list-style: none;
     }
 }
 
-.imagenesbasquet{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border: black;
+.imagenesbas{
+    margin: 1%;
+    
+    .imagenesbasquet{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        width: 100%;
+        height: 100%;
+        border: black;
+    }
+
+    .flecham{
+        height: 50%;
+        transform: rotate(180deg);
+    }
+
+    .flechaf{
+        height: 50%;
+        transform: rotate(180deg);
+
+    }
 }
+
  
 .tablambasquet{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
+    margin-bottom: 50px;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: white;
+    padding-left: 15%;
+    padding-right: 2%;
+    padding-top:2%;
+    padding-bottom: 2%;
+
+    .tablasbasquet{
+        text-align: center;
+        position: static;
+        border-color: black;
+        color: black;
+        width: 100%;
+        height:100%;
+        font-family: 'Poppins';
+        font-style:normal;
+        font-weight: 200;
+    }
 }
 
 .tablafbasquet{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom: 2%;
+
+    .tablasbasquet{
+        text-align: center;
+        position: static;
+        border-color: black;
+        color: black;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 90%;
+        height:100%;
+        font-family: 'Poppins';
+        font-style:normal;
+        font-weight: 200;
+    }
 }
 
-.tablasbasquet{
-    text-align: center;
-    position: static;
-    border-color: black;
-    border-style: solid;
-    color: black;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 90%;
-    height:100%;
-    font-family: 'Poppins';
-    font-style:normal;
-    font-weight: 200;
-}
 
-.footer_basquet{
+
+.footer_pages{
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;

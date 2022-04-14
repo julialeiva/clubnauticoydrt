@@ -19,13 +19,13 @@ html{
 
 
 .body_nauticas{
-    margin: 15px;
+    margin-top: 15px;
     justify-items: center;
-    margin: 2%;
     background-image: linear-gradient(135deg,  #fae105 23%, rgba(236, 240, 16, 0.979) 100%);
+    margin: 2%;
 }
 
-.header_nauticas{
+.header_pages{
     grid-area: header_contacto;
     display: flex;
     flex-direction: row;
@@ -56,6 +56,36 @@ html{
 .main_nauticas{
     width: 100%;
     height: 100%;
+}
+
+.pages_menu{
+    background-color: $colorprincipal;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: $colorsecundario;
+        font-size: 17px; 
+        font-weight: 300;
+        transition: all 0.1s;
+        &:hover{
+            font-size: 18px;
+            font-weight: 400;
+            color: $colorsecundario;
+        }
+    }
+
+    li{
+        font-family: 'Poppins';
+        font-style:normal;
+        font-weight: 300;
+        padding: 15px;
+        text-align: left;
+        list-style: none;
+    }
 }
 
 .imagenesnautica{
@@ -148,7 +178,7 @@ html{
     width: 90%;
 }
 
-.footer_nauticas{
+.footer_pages{
     font-family: 'Poppins';
     font-style:normal;
     font-weight: 200;
