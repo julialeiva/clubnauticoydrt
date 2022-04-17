@@ -17,6 +17,14 @@ html{
     src: url(../fuentes/OPTIMistral-Graff.otf);
 }
 
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 .body_index{
     margin-top: 15px;
     justify-items: center;
@@ -33,14 +41,14 @@ html{
 
     h1{
         text-align: center;
-        color: $colorsecundario;
-        font-family: 'Margin';
-        font-weight: 200;
-        font-size: 60px;
         padding-top: 25px;
         padding-bottom: 25px;
-    }
-
+        color: map-get($fonth1, color);
+        font-family: map-get($fonth1, family);
+        font-size: map-get($fonth1, size);
+        font-weight: map-get($fonth1, weight);
+      }
+    
     img{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -86,14 +94,15 @@ html{
 
 .imagenes_index{
     object-fit: cover;
-    height:480px;
-    width: 75%;
+    height:80%;
+    width: 80%;
     margin-top:20px;
     margin-bottom:20px;
 }
 
 .textos_index{
     font-family: 'Poppins';
+    padding: 8px;
 
     h2{
         text-align: left;
@@ -123,10 +132,7 @@ html{
     font-style:normal;
     font-weight: 200;
     margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
+    @include flex;
 
     .a_f{
         text-decoration: none;

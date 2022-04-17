@@ -17,6 +17,14 @@ html{
     src: url(../fuentes/OPTIMistral-Graff.otf);
 }
 
+.formboton{
+    background-color: $colorprincipal;
+    border-color: $colorprincipal;
+    margin-bottom:5px;
+    margin-left: 20%;
+    margin-right:20%;
+};
+
 .body_contacto{
     margin-top: 15px;
     justify-items: center;
@@ -159,13 +167,14 @@ html{
             margin-right: 10%;
             }
 
-            .formboton{
-                background-color: $colorprincipal;
-                border-color: $colorprincipal;
-                margin-bottom:5px;
-                margin-left: 20%;
-                margin-right:20%;
-                }
+            .formboton1{
+            @extend.formboton;
+            }
+            
+            .formboton2{
+                @extend.formboton;
+                background-color: grey;
+            }
         }
     
         select{
