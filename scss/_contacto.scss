@@ -76,12 +76,6 @@ html{
         color: $colorsecundario;
         font-size: 17px; 
         font-weight: 300;
-        transition: all 0.1s;
-        &:hover{
-            font-size: 18px;
-            font-weight: 400;
-            color: $colorsecundario;
-        }
     }
 
     li{

@@ -15,41 +15,64 @@
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
     <body class="body_hockey">
-        <div class="conteiner-fluid">
+        <div class="container-fluid">
+            <!--escudo y título-->
             <div class="row">
                 <div class="col-12">
                     <header class="header_pages">
-                        <img src="../multimedia/escudo.png" alt="Escudo" tittle="Escudo" class="escudo">
+                        <img src="../multimedia/escudo.webp" alt="Escudo" tittle="Escudo" class="escudo">
                         <h1 class="pages_h1">Club Náutico y Deportivo Rada Tilly</h1>
                     </header>
                 </div>
             </div>
             <main class="main_hockey">
+                <!--menú con menú hamburguesa-->
                 <div class="row">
                     <div class="col-12">
-                        <nav>
-                            <ul class="pages_menu">
-                                <li><a href="../index.html" class="pages_a"> Inicio </a></li> 
-                                <li><a href="contacto.html" class="pages_a">Contacto </a></li> 
-                                <li><a href="basquet.html" class="pages_a"> Basquet </a></li>
-                                <li><a href="nauticas.html" class="pages_a"> Actividades Naúticas</a></li>
-                                <li><a href="hockey.html" class="pages_a"> Hockey </a></li>
-                            </ul>
+                        <nav class="navbar navbar-expand-sm navbar-dark navmenu_pages">
+                            <button class="navbar-toggler button_pages" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end menu_pages" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-hidden="true">
+                                <div class="offcanvas-header x_pages">
+                                    <button type="button button_pages" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="contacto.html">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="basquet.html">Básquet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="nauticas.html">Actividades Náuticas</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="hockey.html">Hockey</a>
+                                    </li>    
+                                  </ul>
+                                </div>
+                              </div>
                         </nav>
                     </div>
                 </div>
+                <!--carrusel hockey-->
                 <div class="row justify-content-center carruselhockey">
                     <div class="imageneshockey col-12">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../multimedia/primeradamas3.jpg" class="d-block w-100 imageneshockey" alt="Primera Damas">
+                            <img src="../multimedia/primeradamas3.webp" class="d-block w-100 imageneshockey" alt="Primera Damas">
                         </div>
                         <div class="carousel-item">
-                            <img src="../multimedia/hockeymasc.jpg" class="d-block w-100 imageneshockey" alt="Hockey Masculino">
+                            <img src="../multimedia/hockeymasc.webp" class="d-block w-100 imageneshockey" alt="Hockey Masculino">
                         </div>
                         <div class="carousel-item">
-                            <img src="../multimedia/primeradamas1.jpg" class="d-block w-100 imageneshockey" alt="Primera Damas">
+                            <img src="../multimedia/primeradamas1.webp" class="d-block w-100 imageneshockey" alt="Primera Damas">
                         </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -63,6 +86,7 @@
                         </div>
                     </div>
                 </div>
+                <!--tabla de horarios hockey-->
                 <div class="row horarioshockey">
                     <div class="horarios col-12">
                         <h3 class="pages_h3">Horarios</h3>
@@ -164,9 +188,11 @@
                                 </tbody>
                             </table>
                         </div>
+                        <p>Te esperamos para practicar este hermoso deporte, hacer <b>amigos</b>, cuidar tu <b>salud</b>, <b>viajar</b> y <b>divertirte</b></p>
                     </div>
                 </div>
             </main>
+            <!--footer-->
             <div class="row">
                 <div class="col-xl-6 col-12">
                     <footer class="footer_pages">

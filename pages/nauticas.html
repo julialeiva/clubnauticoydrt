@@ -15,42 +15,68 @@
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
     <body class="body_nauticas">
-        <div class="conteiner-fluid">
+        <div class="container-fluid">
+            <!--escudo y título-->
             <div class="row">
                 <div class="col-12">
                     <header class="header_pages">
-                        <img src="../multimedia/escudo.png" alt="Escudo" tittle="Escudo" class="escudo">
+                        <img src="../multimedia/escudo.webp" alt="Escudo" tittle="Escudo" class="escudo">
                         <h1 class="pages_h1">Club Náutico y Deportivo Rada Tilly</h1>
                     </header>
                 </div>
             </div>
         <main class="main_nauticas">
+            <!--menú con menú hamburguesa-->
             <div class="row">
-                <nav class="col-12 nav_nauticas">
-                    <ul class="pages_menu">
-                        <li><a href="../index.html" class="pages_a"> Inicio </a></li> 
-                        <li><a href="contacto.html" class="pages_a">Contacto </a></li> 
-                        <li><a href="basquet.html" class="pages_a"> Basquet </a></li>
-                        <li><a href="nauticas.html" class="pages_a"> Actividades Naúticas</a></li>
-                        <li><a href="hockey.html" class="pages_a"> Hockey </a></li>
-                    </ul>
-                </nav> 
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-sm navbar-dark navmenu_pages">
+                        <button class="navbar-toggler button_pages" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end menu_pages" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-hidden="true">
+                            <div class="offcanvas-header x_pages">
+                                <button type="button button_pages" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link a_pages" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link a_pages" href="contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link a_pages" href="basquet.html">Básquet</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link a_pages" href="nauticas.html">Actividades Náuticas</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link a_pages" href="hockey.html">Hockey</a>
+                                </li>    
+                            </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12">
+                    <!--collage imágenes naúticas-->
                     <section class="imagenesnautica">
-                        <img src="../multimedia/nautica1.jpg" alt="Nautica" tittle="Nautica" class="imagennautica1"> 
-                        <img src="../multimedia/nautica2.jpg" alt="Nautica" tittle="Nautica" class="imagennautica2">
-                        <img src="../multimedia/nautica3.png" alt="Nautica" tittle="Nautica" class="imagennautica3"> 
-                        <img src="../multimedia/nautica4.jpg" alt="Nautica" tittle="Nautica" class="imagennautica4"> 
-                        <img src="../multimedia/nautica5.png" alt="Nautica" tittle="Nautica" class="imagennautica5">
+                        <img src="../multimedia/nautica1.webp" alt="Nautica" tittle="Nautica" class="imagennautica1"> 
+                        <img src="../multimedia/nautica2.webp" alt="Nautica" tittle="Nautica" class="imagennautica2">
+                        <img src="../multimedia/nautica3.webp" alt="Nautica" tittle="Nautica" class="imagennautica3"> 
+                        <img src="../multimedia/nautica4.webp" alt="Nautica" tittle="Nautica" class="imagennautica4"> 
+                        <img src="../multimedia/nautica5.webp" alt="Nautica" tittle="Nautica" class="imagennautica5">
                         <img src="../multimedia/nautica6.webp" alt="Nautica" tittle="Nautica" class="imagennautica6"> 
-                        <img src="../multimedia/nautica7.jpg" alt="Nautica" tittle="Nautica" class="imagennautica7"> 
+                        <img src="../multimedia/nautica7.webp" alt="Nautica" tittle="Nautica" class="imagennautica7"> 
                         <img src="../multimedia/nautica8.webp" alt="Nautica" tittle="Nautica" class="imagennautica8">
-                        <img src="../multimedia/nautica9.png" alt="Nautica" tittle="Nautica" class="imagennautica9"> 
+                        <img src="../multimedia/nautica9.webp" alt="Nautica" tittle="Nautica" class="imagennautica9"> 
                     </section>
                 </div>
                 <div class="col-12 info_nautica">
+                    <!--infrmación náutica-->
                     <h3>Te ofrecemos practicar las siguientes actividades:</h3>
                     <ul>
                         <li class="info">Natación en aguas abiertas</li> 
@@ -59,10 +85,11 @@
                         <li class="info">Laser</li>
                         <li class="info">Optimist</li>
                     </ul>
-                    <p>Consultá en la administración para realizar esas actividades durante todo el año.</p>
+                    <p>Consultá en la administración para realizar esas actividades <mark><b>durante todo el año</b></mark>.</p>
                 </div>
             </div>
         </main>
+            <!--footer-->
             <div class="row">
                 <div class="col-xl-6 col-12">
                     <footer class="footer_pages">

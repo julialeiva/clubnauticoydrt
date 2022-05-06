@@ -26,7 +26,18 @@
     
 @media screen and (max-width:768px){
 
-  
+.main_index{
+
+    .deportes{
+        margin-top: 25px;
+        margin-bottom: 25px; 
+    
+        h3{
+        font-size: 15px;
+        }
+            
+    }
+}
 .imagenes_index{
     width: 100%;
     height: 100%;
@@ -35,13 +46,52 @@
 }
 
 
-.menu{
-    margin:0%;
+.navmenu{
+    background-color: $colorsecundario;
+    padding:0px;
+
+    .menu{
+        background-color: $colorsecundario;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        a{
+            text-decoration: none;
+            color: $colorprincipal;
+            font-size: 14px;
+            font-weight: 400;
+        }    
+        
+        li{
+            font-family: 'Poppins';
+            font-style:normal;
+            font-weight: 300;
+            padding: 5px;
+            text-align: left;
+            list-style: none;
+        }
+    }
 }
 
 .pages_menu{
     margin:0%;
 }
+
+
+.imagenesnautica{
+    display: grid;
+    grid-template-areas: 
+    "imagennautica7 imagennautica7 imagennautica7"
+    "imagennautica7 imagennautica7 imagennautica7"
+    "imagennautica7 imagennautica7 imagennautica7";
+    grid-column-gap: 0px;
+    grid-row-gap:0px;
+    padding:0px;
+    background-color: white; 
+
+}
+
 
 .info_nautica{
     background-color: white;
@@ -100,27 +150,36 @@
 .tablambasquet{
 
     .tablasbasquet{
-        font-size: 8px;
+        font-size: 13px;
+        display: block;
+        overflow-x: auto;
     }
 }
 
 .tablafbasquet{
 
     .tablasbasquet{
-        font-size: 8px;
+        font-size: 13px;
+        display: block;
+        overflow-x: auto;
     }
 }
 
 .imagenesbas{
+margin: 0px;
+padding: 0px;
     
     .imagenesbasquet{
         width: 100%;
         height: 100%;
+        margin: 0px;
         padding: 0px;
+        box-shadow: none;
+
     }
     
     p{
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
@@ -141,7 +200,13 @@
     .horarios{
       
         .tablahockey{
-            font-size: 8px;
+            font-size: 12px;
+            display: block;
+            overflow-x: auto;
+        }
+
+        p{
+            font-size: 15px;
         }
     }
 }
@@ -205,25 +270,31 @@
     }
 }
 
-.menu{
+.navmenu{
     background-color: $colorsecundario;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    margin:0%;
+    padding:0px;
 
-    a{
-    font-size: 13px;
-    }
-
-    li{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 300;
-        padding: 5px;
-        text-align: left;
-        list-style: none;
+    .menu{
+        background-color: $colorsecundario;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        a{
+            text-decoration: none;
+            color: $colorprincipal;
+            font-size: 14px;
+            font-weight: 400;
+        }    
+        
+        li{
+            font-family: 'Poppins';
+            font-style:normal;
+            font-weight: 300;
+            padding: 5px;
+            text-align: left;
+            list-style: none;
+        }
     }
 }
 
@@ -231,7 +302,6 @@
     background-color: $colorprincipal;
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
     justify-content: space-evenly;
     margin:0%;
 
@@ -297,36 +367,54 @@
 }
 
 }
-    
-@media screen and (max-width:425px){
 
-.menu{
+@media screen and (max-width:575px){
+
+.navmenu{
     background-color: $colorsecundario;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    margin:0%;
+    padding:0px;
 
-    a{
-    font-size: 10px;
-    }
-
-    li{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 300;
-        padding: 5px;
-        text-align: left;
-        list-style: none;
+    .menu{
+        background-color: $colorsecundario;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    
+        a{
+            text-decoration: none;
+            color: $colorprincipal;
+            font-size: 14px;
+            font-weight: 400;
+        }    
+        
+        li{
+            font-family: 'Poppins';
+            font-style:normal;
+            font-weight: 300;
+            padding: 1px;
+            text-align: left;
+            list-style: none;
+        }
     }
 }
 
+}
+
+@media screen and (max-width:425px){
+
+.main_index{
+
+    .deportes{
+        
+        h3{
+            font-size: 15px;
+        }
+    }
+}    
 .pages_menu{
     background-color: $colorprincipal;
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
     justify-content: space-evenly;
     margin:0%;
     
@@ -342,6 +430,14 @@
         text-align: left;
         list-style: none;
     }
+}
+
+.footer_pages{
+
+    .pages_a_f{
+        font-size: 12px;
+    }
+
 }
 
 }

@@ -62,33 +62,41 @@ html{
     }
 }
 
-.pages_menu{
+
+.navmenu_pages{
     background-color: $colorprincipal;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
     padding:0px;
 
-    a{
-        text-decoration: none;
-        color: $colorsecundario;
-        font-size: 17px; 
-        font-weight: 300;
-        transition: all 0.1s;
-        &:hover{
-            font-size: 18px;
-            font-weight: 400;
-            color: $colorsecundario;
-        }
+    .button_pages{
+        color:#fae105;
     }
 
-    li{
-        font-family: 'Poppins';
-        font-style:normal;
-        font-weight: 300;
-        text-align: left;
-        list-style: none;
+    .menu_pages{
+        background-color: $colorprincipal;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: center;
+
+        .x_pages{
+        background-color: white;
+        }
+    
+        .a_pages{
+            text-decoration: none;
+            color: $colorsecundario;
+            font-size: 17px;
+            font-weight: 400;
+        }    
+        
+        li{
+            font-family: 'Poppins';
+            font-style:normal;
+            font-weight: 300;
+            padding: 5px;
+            text-align: left;
+            list-style: none;
+        }
     }
 }
 

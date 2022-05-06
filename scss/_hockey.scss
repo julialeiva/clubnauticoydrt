@@ -18,6 +18,10 @@ html{
 }
 
 
+.row {
+    --bs-gutter-x: 0 rem;
+}
+
 .body_hockey{
     justify-items: center;
     margin-top: 15px;
@@ -69,12 +73,6 @@ html{
         color: $colorsecundario;
         font-size: 17px; 
         font-weight: 300;
-        transition: all 0.1s;
-        &:hover{
-            font-size: 18px;
-            font-weight: 400;
-            color: $colorsecundario;
-        }
     }
 
     li{
@@ -134,6 +132,17 @@ html{
             font-weight: 200;
             width: 100%;
             background-color: transparent;
+        }
+
+        p{
+            color: $colorprincipal;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Poppins';
+            font-weight: 200;
+            font-size: 20px;
+            margin: 10px;
         }
     }
 }

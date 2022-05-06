@@ -70,12 +70,6 @@ html{
         color: $colorsecundario;
         font-size: 17px; 
         font-weight: 300;
-        transition: all 0.1s;
-        &:hover{
-            font-size: 18px;
-            font-weight: 400;
-            color: $colorsecundario;
-        }
     }
 
     li{
@@ -169,7 +163,11 @@ html{
 .info_nautica{
     background-color: white;
     margin: 0px;
-    padding: 30px;
+    padding: 0px;
+
+    ul{
+        padding: 0px;
+    }
 
     h3{
         text-align: center;
@@ -194,6 +192,10 @@ html{
         font-family: 'Poppins';
         font-weight: 200;
         font-size: 20px;
+    }
+
+    mark{
+        background-color: #fae105;
     }
 }
 

@@ -18,6 +18,10 @@ html {
   justify-items: center;
   background-image: linear-gradient(135deg, #101111 65%, #fdf72d 100%); }
 
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px; }
+
 .header_index {
   display: flex;
   flex-direction: row;
@@ -42,30 +46,41 @@ html {
 
 .main_index {
   background: transparent; }
+  .main_index .deportes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    .main_index .deportes h3 {
+      font-family: 'Poppins';
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px; }
 
-.menu {
+.navmenu {
   background-color: #fae105;
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  justify-content: center; }
-  .menu a {
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
-    font-weight: 400;
-    transition: all 0.1s; }
-    .menu a:hover {
-      font-size: 18px;
-      font-weight: 500;
-      color: black; }
-  .menu li {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    padding: 15px;
-    text-align: left;
-    list-style: none; }
+  padding: 0px; }
+  .navmenu .x {
+    background-color: white; }
+  .navmenu .menu {
+    background-color: #fae105;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center; }
+    .navmenu .menu a {
+      text-decoration: none;
+      color: black;
+      font-size: 17px;
+      font-weight: 300; }
+    .navmenu .menu li {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      padding: 5px;
+      text-align: left;
+      list-style: none; }
 
 .imagenes_index {
   object-fit: cover;
@@ -90,15 +105,19 @@ html {
   .textos_index p {
     color: white;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: italic;
     text-align: justify; }
+  .textos_index mark {
+    background-color: #fae105;
+    color: black; }
 
 .footer_index {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
   margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,6 +143,9 @@ html {
 @font-face {
   font-family: 'Margin';
   src: url(../fuentes/OPTIMistral-Graff.otf); }
+
+.row {
+  --bs-gutter-x: 0 rem; }
 
 .body_hockey {
   justify-items: center;
@@ -167,12 +189,7 @@ html {
     text-decoration: none;
     color: #fae105;
     font-size: 17px;
-    font-weight: 300;
-    transition: all 0.1s; }
-    .pages_menu a:hover {
-      font-size: 18px;
-      font-weight: 400;
-      color: #fae105; }
+    font-weight: 300; }
   .pages_menu li {
     font-family: 'Poppins';
     font-style: normal;
@@ -220,6 +237,15 @@ html {
       font-weight: 200;
       width: 100%;
       background-color: transparent; }
+    .horarioshockey .horarios p {
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'Poppins';
+      font-weight: 200;
+      font-size: 20px;
+      margin: 10px; }
 
 .footer_pages {
   font-family: 'Poppins';
@@ -303,12 +329,7 @@ html {
     text-decoration: none;
     color: #fae105;
     font-size: 17px;
-    font-weight: 300;
-    transition: all 0.1s; }
-    .pages_menu a:hover {
-      font-size: 18px;
-      font-weight: 400;
-      color: #fae105; }
+    font-weight: 300; }
   .pages_menu li {
     font-family: 'Poppins';
     font-style: normal;
@@ -478,12 +499,7 @@ html {
     text-decoration: none;
     color: #fae105;
     font-size: 17px;
-    font-weight: 300;
-    transition: all 0.1s; }
-    .pages_menu a:hover {
-      font-size: 18px;
-      font-weight: 400;
-      color: #fae105; }
+    font-weight: 300; }
   .pages_menu li {
     font-family: 'Poppins';
     font-style: normal;
@@ -550,7 +566,9 @@ html {
 .info_nautica {
   background-color: white;
   margin: 0px;
-  padding: 30px; }
+  padding: 0px; }
+  .info_nautica ul {
+    padding: 0px; }
   .info_nautica h3 {
     text-align: center;
     padding: 20px; }
@@ -569,6 +587,8 @@ html {
     font-family: 'Poppins';
     font-weight: 200;
     font-size: 20px; }
+  .info_nautica mark {
+    background-color: #fae105; }
 
 .footer_pages {
   font-family: 'Poppins';
@@ -637,29 +657,31 @@ html {
   .main_basquet ul {
     margin-bottom: 0px; }
 
-.pages_menu {
+.navmenu_pages {
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  justify-content: center;
   padding: 0px; }
-  .pages_menu a {
-    text-decoration: none;
-    color: #fae105;
-    font-size: 17px;
-    font-weight: 300;
-    transition: all 0.1s; }
-    .pages_menu a:hover {
-      font-size: 18px;
-      font-weight: 400;
-      color: #fae105; }
-  .pages_menu li {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    text-align: left;
-    list-style: none; }
+  .navmenu_pages .button_pages {
+    color: #fae105; }
+  .navmenu_pages .menu_pages {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center; }
+    .navmenu_pages .menu_pages .x_pages {
+      background-color: white; }
+    .navmenu_pages .menu_pages .a_pages {
+      text-decoration: none;
+      color: #fae105;
+      font-size: 17px;
+      font-weight: 400; }
+    .navmenu_pages .menu_pages li {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 300;
+      padding: 5px;
+      text-align: left;
+      list-style: none; }
 
 .imagenesbas {
   background-color: white;
@@ -767,15 +789,45 @@ html {
     padding-bottom: 10px; } }
 
 @media screen and (max-width: 768px) {
+  .main_index .deportes {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+    .main_index .deportes h3 {
+      font-size: 15px; }
   .imagenes_index {
     width: 100%;
     height: 100%;
     padding: 0px;
     margin: 0px; }
-  .menu {
-    margin: 0%; }
+  .navmenu {
+    background-color: #fae105;
+    padding: 0px; }
+    .navmenu .menu {
+      background-color: #fae105;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .navmenu .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400; }
+      .navmenu .menu li {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        padding: 5px;
+        text-align: left;
+        list-style: none; }
   .pages_menu {
     margin: 0%; }
+  .imagenesnautica {
+    display: grid;
+    grid-template-areas: "imagennautica7 imagennautica7 imagennautica7" "imagennautica7 imagennautica7 imagennautica7" "imagennautica7 imagennautica7 imagennautica7";
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 0px;
+    background-color: white; }
   .info_nautica {
     background-color: white;
     margin: 0px;
@@ -816,15 +868,24 @@ html {
     .footer_index img {
       object-fit: fit; }
   .tablambasquet .tablasbasquet {
-    font-size: 8px; }
+    font-size: 13px;
+    display: block;
+    overflow-x: auto; }
   .tablafbasquet .tablasbasquet {
-    font-size: 8px; }
-  .imagenesbas .imagenesbasquet {
-    width: 100%;
-    height: 100%;
+    font-size: 13px;
+    display: block;
+    overflow-x: auto; }
+  .imagenesbas {
+    margin: 0px;
     padding: 0px; }
-  .imagenesbas p {
-    font-size: 10px; }
+    .imagenesbas .imagenesbasquet {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      box-shadow: none; }
+    .imagenesbas p {
+      font-size: 15px; }
   .carruselhockey {
     margin-top: 0px; }
     .carruselhockey .imageneshockey {
@@ -832,7 +893,11 @@ html {
       height: 100%;
       width: 100%; }
   .horarioshockey .horarios .tablahockey {
-    font-size: 8px; }
+    font-size: 12px;
+    display: block;
+    overflow-x: auto; }
+  .horarioshockey .horarios p {
+    font-size: 15px; }
   .footer_pages {
     font-family: 'Poppins';
     font-style: normal;
@@ -871,27 +936,30 @@ html {
     width: 10%;
     height: 10%;
     object-fit: cover; }
-  .menu {
+  .navmenu {
     background-color: #fae105;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    margin: 0%; }
-    .menu a {
-      font-size: 13px; }
-    .menu li {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 300;
-      padding: 5px;
-      text-align: left;
-      list-style: none; }
+    padding: 0px; }
+    .navmenu .menu {
+      background-color: #fae105;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .navmenu .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400; }
+      .navmenu .menu li {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        padding: 5px;
+        text-align: left;
+        list-style: none; }
   .pages_menu {
     background-color: black;
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
     justify-content: space-evenly;
     margin: 0%; }
     .pages_menu a {
@@ -938,28 +1006,35 @@ html {
       width: 25px;
       height: 25px; } }
 
-@media screen and (max-width: 425px) {
-  .menu {
+@media screen and (max-width: 575px) {
+  .navmenu {
     background-color: #fae105;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    margin: 0%; }
-    .menu a {
-      font-size: 10px; }
-    .menu li {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 300;
-      padding: 5px;
-      text-align: left;
-      list-style: none; }
+    padding: 0px; }
+    .navmenu .menu {
+      background-color: #fae105;
+      display: flex;
+      flex-direction: row;
+      justify-content: left; }
+      .navmenu .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400; }
+      .navmenu .menu li {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        padding: 1px;
+        text-align: left;
+        list-style: none; } }
+
+@media screen and (max-width: 425px) {
+  .main_index .deportes h3 {
+    font-size: 15px; }
   .pages_menu {
     background-color: black;
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
     justify-content: space-evenly;
     margin: 0%; }
     .pages_menu a {
@@ -970,4 +1045,6 @@ html {
       font-weight: 300;
       padding: 5px;
       text-align: left;
-      list-style: none; } }
+      list-style: none; }
+  .footer_pages .pages_a_f {
+    font-size: 12px; } }

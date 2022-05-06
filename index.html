@@ -16,41 +16,64 @@
     <link rel="stylesheet" href="estilos/styles.css">
 </head>
     <body class="body_index">
-        <div class="conteiner-fluid">
+        <div class="container-fluid">
+            <!--escudo y título-->
             <div class="row">
                 <div class="col-12">
                     <header class="header_index">
-                        <img src="multimedia/escudo.png" alt="Escudo" tittle="Escudo" class="escudo">
+                        <img src="multimedia/escudo.webp" alt="Escudo" tittle="Escudo" class="escudo">
                         <h1 class="index_h1">Club Náutico y Deportivo Rada Tilly</h1>
                     </header>
                 </div>
             </div>
             <main class="main_index">
+                <!--menú con menú hamburguesa-->
                 <div class="row">
                     <div class="col-12">
-                        <nav>
-                            <ul class="menu">
-                                <li><a href="index.html"> Inicio </a></li> 
-                                <li><a href="./pages/contacto.html"> Contacto </a></li> 
-                                <li><a href="./pages/basquet.html"> Basquet </a></li>
-                                <li><a href="./pages/nauticas.html"> Actividades Naúticas</a></li>
-                                <li><a href="./pages/hockey.html"> Hockey </a></li>
-                            </ul>
+                        <nav class="navbar navbar-expand-sm navbar-light navmenu">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end menu" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-hidden="true">
+                                <div class="offcanvas-header x">
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/basquet.html">Básquet</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/nauticas.html">Actividades Náuticas</a>
+                                        </li> 
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/hockey.html">Hockey</a>
+                                        </li>    
+                                    </ul>
+                                </div>
+                              </div>
                         </nav>
                     <div> 
                 </div>
+                <!--carrusel-->
                 <div class="row justify-content-center">
                     <section class="imagenes_index col-12">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="multimedia/primeradamas2.jpg" class="d-block w-100 imagenes_index" alt="Primera Damas Hockey">
+                                <img src="multimedia/primeradamas2.webp" class="d-block w-100 imagenes_index" alt="Primera Damas Hockey">
                             </div>
                             <div class="carousel-item">
-                                <img src="multimedia/basquetmasc.jpg" class="d-block w-100 imagenes_index" alt="Primera Masculina Basquet">
+                                <img src="multimedia/basquetmasc.webp" class="d-block w-100 imagenes_index" alt="Primera Masculina Basquet">
                             </div>
                             <div class="carousel-item">
-                                <img src="multimedia/nautica2.jpg" class="d-block w-100 imagenes_index" alt="Actividades Náuticas">
+                                <img src="multimedia/nautica2.webp" class="d-block w-100 imagenes_index" alt="Actividades Náuticas">
                             </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -63,23 +86,34 @@
                             </button>
                         </div>
                     </section>
-                    <div>
-                        <section class="textos_index">
-                            <h3>¡Bienvenidos!</h3>
-                            <h2>Primeros Pasos</h2>
-                            <p>El Club Náutico y Deportivo Rada Tilly se fundó el 18 de junio de 1983 y desde ese momento el objetivo de la institución "aurinegra" siempre fue la de formar deportistas.
-                            Comenzó con el básquet y luego el hóckey convirtiéndose en punto de referencia en una localidad que creció en los últimos tiempos a pasos agigantados, pero en la última década la actividad náutica también sumó muchos adeptos y no solo en época de verano.
-                            El gimnasio ubicado en la punta norte de la villa, ubicado en la calle Luis Piedrabuena al 2900, a una cuadra del mar, sin dudas sirvió para desarrollar el básquet en un lugar adecuado y cómodo, convirtiéndose hoy en día en uno de los clubes que presenta en los torneos todas sus categorías.
-                            El hóckey es otra de las disciplinas que reúne cientos de jugadores a lo largo de la temporada. La inauguración de su cancha de césped sintético, con medidas oficiales aprobadas por la Confederación Argentina de Hóckey, en mayo del 2018 sirvió como motivación para que crezcan las formativas.
-                            Por su parte, la náutica es una disciplina que también creció a paso firme con el respaldo del club. Se ofrece escuela de Vela que incluye Optimist, Laser, Windsurf, embarcación a motor, además de nuestra escuela de natación en aguas abiertas.</p>
-                            <h2>Actualidad</h2>
-                            <p>Ya somos una familia de más de 3000 personas que vienen a divertirse y aprender Hockey, Basquet y Actividades Náuticas. Además del gimansio, la cancha de hockey sintética y la sede sobre el mar de las actividades náuticas, también contamos con un salón sobre la playa que se encuentra disponible para el disfrute de los socios y no socios.
-                                Además, nos enorgullese contarles que contamos con un proyecto en desarrollo para inaugurar en las cercanías del club una cancha de hockey indoor y dos canchas de tenis al aire libre. Esperamos pronto poder sumar estas actividades a nuestra oferta.
-                            </p>
-                        </section>
+                </div>
+                <!--deportes en 3 imágenes-->
+                <div class="deportes">
+                    <div class="row justify-content-center">
+                        <h3 class="col-12">Desde 1983 haciendo que el deporte crezca</h3>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img class="col-4 deportes_img" src="multimedia/pelota.png" alt="Basquet">
+                        <img class="col-4 deportes_img" src="multimedia/palo.png" alt="Hockey">
+                        <img class="col-4 deportes_img" src="multimedia/barco.png" alt="Actividades Náuticas">
                     </div>
                 </div>
+                <!--primeros pasos y actualidad-->
+                <div>
+                    <section class="textos_index">
+                        <h2>Primeros Pasos</h2>
+                        <p>El Club Náutico y Deportivo Rada Tilly se fundó el 18 de junio de 1983 y desde ese momento el <mark>objetivo</mark> de la institución "aurinegra" siempre fue la de <mark>formar deportistas</mark>.
+                        El <mark>gimnasio</mark> ubicado en la punta norte de la villa, ubicado en la calle Luis Piedrabuena al 2900, a una cuadra del mar, sin dudas sirvió para desarrollar el básquet en un lugar adecuado y cómodo, convirtiéndose hoy en día en uno de los clubes que presenta en los torneos todas sus categorías.
+                        El hóckey es otra de las disciplinas que reúne cientos de jugadores a lo largo de la temporada. La inauguración de su <mark>cancha de césped sintético</mark> en mayo del 2018 sirvió como motivación para que crezcan las formativas.
+                        Por su parte, la <mark>náutica</mark> es una disciplina que también creció a paso firme con el respaldo del club. Se ofrece escuela de Vela que incluye Optimist, Laser, Windsurf, embarcación a motor, además de nuestra escuela de natación en aguas abiertas.</p>
+                        <h2>Actualidad</h2>
+                        <p>Además del gimansio, la cancha de hockey sintética y la sede sobre el mar de las actividades náuticas, también contamos con un <mark>salón sobre la playa</mark> que se encuentra disponible para el disfrute de los socios y no socios.
+                            Además, nos enorgullese contarles que contamos con un proyecto en desarrollo para inaugurar en las cercanías del club una <mark>cancha de hockey indoor y dos canchas de tenis</mark> al aire libre. Esperamos pronto poder sumar estas actividades a nuestra oferta.
+                        </p>
+                    </section>
+                </div>
             </main>
+            <!--footer-->
             <div class="row">
                 <div class="col-xl-6 col-12">
                     <footer class="footer_index">

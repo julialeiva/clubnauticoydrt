@@ -15,35 +15,58 @@
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
     <body class="body_basquet">
-        <div class="conteiner-fluid">
+        <div class="container-fluid">
+            <!--escudo y título-->
             <div class="row">
                 <div class="col-12">
                     <header class="header_pages">
-                        <img src="../multimedia/escudo.png" alt="Escudo" tittle="Escudo" class="escudo">
+                        <img src="../multimedia/escudo.webp" alt="Escudo" tittle="Escudo" class="escudo">
                         <h1 class="pages_h1">Club Náutico y Deportivo Rada Tilly</h1>
                     </header>
                 </div>
             </div>
             <main class="main_basquet">
+                <!--menú con menú hamburguesa-->
                 <div class="row">
-                    <div class="col-12">
-                        <nav>
-                            <ul class="pages_menu">
-                                <li><a href="../index.html" class="pages_a"> Inicio</a></li> 
-                                <li><a href="contacto.html" class="pages_a">Contacto </a></li> 
-                                <li><a href="basquet.html" class="pages_a"> Basquet </a></li>
-                                <li><a href="nauticas.html" class="pages_a"> Actividades Naúticas</a></li>
-                                <li><a href="hockey.html" class="pages_a"> Hockey </a></li>
-                            </ul>
-                        </nav> 
+                    <div>
+                        <nav class="navbar navbar-expand-sm navbar-dark navmenu_pages">
+                            <button class="navbar-toggler button_pages" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end menu_pages" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-hidden="true">
+                                <div class="offcanvas-header x_pages">
+                                    <button type="button button_pages" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="contacto.html">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="basquet.html">Básquet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="nauticas.html">Actividades Náuticas</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="hockey.html">Hockey</a>
+                                    </li>    
+                                </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
                 <div class="row imagenesbas">
-                    <section class="col-md-8 col-12">
-                        <img src="../multimedia/basquetmasc.jpg" alt="Primera Masculina" tittle="Primera Masc" class="imagenesbasquet"> 
+                    <!--foto y horarios masculinos-->
+                    <section class="col-md-8 col-12 imagenesbas">
+                        <img src="../multimedia/basquetmasc.webp" alt="Primera Masculina" tittle="Primera Masc" class="imagenesbasquet"> 
                     </section>
                     <div class="col-md-4 col-12">
-                        <p>Acercate a jugar al basquet a uno de los clubes más prestigiosos de Chubut</p>
+                        <p>Acercate a jugar al basquet al <b>club más prestigioso</b> de Chubut</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -138,12 +161,13 @@
                         </table>
                     </section>
                 </div>
+                <!--foto y horarios femeninos-->
                 <div class="row imagenesbas">
                     <div class="col-md-4 col-12">
-                        <p>Sumate al equipo femenino de Rada Tilly</p>
+                        <p>Sumate al equipo femenino de Rada Tilly. <b>Divertite y cuidá tu salud</b>.</p>
                     </div>
-                    <section class="col-md-8 col-12">   
-                        <img src="../multimedia/basquetfem.jpg" alt="Primera Femenina" tittle="Primera Fem" class="imagenesbasquet"> 
+                    <section class="col-md-8 col-12 imagenesbas">   
+                        <img src="../multimedia/basquetfem.webp" alt="Primera Femenina" tittle="Primera Fem" class="imagenesbasquet"> 
                     </section>
                 </div>
                 <div class="row justify-content-center">
@@ -203,6 +227,7 @@
                     </section>
                 </div>
             </main>
+            <!--footer-->
             <div class="row">
                 <div class="col-xl-6 col-12">
                     <footer class="footer_pages">

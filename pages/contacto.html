@@ -15,32 +15,59 @@
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
     <body class="body_contacto"> 
-        <div class="conteiner-fluid">
+        <div class="container-fluid">
+            <!--escudo y título-->
             <div class="row">
                 <div class="col-12">
                     <header class="header_pages">
-                        <img src="../multimedia/escudo.png" alt="Escudo" tittle="Escudo" class="escudo">
+                        <img src="../multimedia/escudo.webp" alt="Escudo" tittle="Escudo" class="escudo">
                         <h1 class="pages_h1">Club Náutico y Deportivo Rada Tilly</h1>
                     </header>
                 </div>
             </div>
             <main class="main_contacto">
+                <!--menú con menú hamburguesa-->
                 <div class="row">
-                    <nav class="col-12">
-                        <ul class="pages_menu">
-                            <li><a href="../index.html" class="pages_a"> Inicio </a></li> 
-                            <li><a href="contacto.html" class="pages_a">Contacto </a></li> 
-                            <li><a href="basquet.html" class="pages_a"> Basquet </a></li>
-                            <li><a href="nauticas.html" class="pages_a"> Actividades Naúticas</a></li>
-                            <li><a href="hockey.html" class="pages_a"> Hockey </a></li>
-                        </ul>
-                    </nav>
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-sm navbar-dark navmenu_pages">
+                            <button class="navbar-toggler button_pages" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end menu_pages" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: hidden;" aria-hidden="true">
+                                <div class="offcanvas-header x_pages">
+                                    <button type="button button_pages" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="contacto.html">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="basquet.html">Básquet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="nauticas.html">Actividades Náuticas</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link a_pages" href="hockey.html">Hockey</a>
+                                    </li>    
+                                </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
+                <!--3 columnas de información-->
                 <section class="row contacto justify-content-center">
+                    <!--google maps-->
                     <div class="col-xl-4 col-12 contacto_1">
                         <h3 class="pages_h3">¿Dónde encontrarnos?</h3>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.7138273213063!2d-67.54776629999999!3d-45.917031099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5ac5d167f5cb5%3A0x30103e342e679edc!2sClub%20Nautico%20Y%20Deportivo%20Rada%20Tilly!5e0!3m2!1ses!2sar!4v1645814370143!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
+                    <!--info escrita-->
                     <div class="col-xl-4 col-12 contacto_2">
                         <h3 class="pages_h3">Información importante</h3>
                         <ul>
@@ -49,6 +76,7 @@
                             <li class="info">CBU para transferencias: 0830006501002013440014</li>
                         </ul>
                     </div>
+                    <!--formulario-->
                     <div class="col-xl-4 col-12 contacto_3">
                         <h3 class="pages_h3">Hacenos tu consulta</h3>
                         <form class="formulario" action="" method="" enctype="">
@@ -72,6 +100,7 @@
                     </div>
                 </section>
             </main>
+            <!--footer-->
             <div class="row">
                 <div class="col-xl-6 col-12">
                     <footer class="footer_pages">
